@@ -1,6 +1,6 @@
 # ICP: Odoo for 50 to 200 employee companies (Ahmedabad first)
 
-Version 0.1, 13 Nov 2026. Draft for review before any credits are spent on enrichment.
+Version 0.2, 13 Nov 2026. Updated with your answers (no live references yet, ₹2 lakh minimum deal, Odoo or ERPNext per client) and with desk research on buyer pain.
 
 Labels used in this document:
 - **Fact**: verifiable rule or data point.
@@ -23,6 +23,14 @@ A promoter-led Indian manufacturer or distributor with 50 to 200 employees, runn
 | Location (Phase 2) | HQ, plant or main warehouse in Ahmedabad district | Clusters to route visits by: Naroda, Vatva, Odhav, Kathwada GIDC (chemicals, engineering); Changodar, Moraiya, Sanand, Bavla (pharma, engineering, FMCG); Narol, Odhav, Pirana (textile processing); Aslali, Sarkhej, Kathwada (warehousing, distribution). |
 | Current systems | Tally Prime / ERP 9, Busy, Marg (common in pharma distribution), Excel, custom FoxPro or VB apps, standalone payroll | Companies already live on SAP B1 within the last 3 years are low priority; rip and replace is rare. |
 | Structure | 2+ locations, or 2+ GSTINs, or plant + depot(s) | Single-location traders are a poor fit. |
+
+## 2b. Decisions from your answers (v0.2)
+
+- **Manufacturing only for the first 100.** Pharma, chemicals and engineering are the core. Distribution and textiles move to "later".
+- **Add building materials** (bricks, AAC blocks, ceramics, cement products) as a segment. You have built an ERP for a brick manufacturer in Madhya Pradesh. Refer to it only as "a building-materials manufacturer in MP" and never name the client. In Ahmedabad this segment is thin; it matters more in Phase 3 (Morbi ceramics cluster, Himmatnagar).
+- **Reference-first strategy.** With no live Odoo/ERPNext references, the first 2 or 3 deals should be priced as reference deals (fixed-price pilot or discount in exchange for a case study and a site visit). Concentrate early effort in one cluster (Vatva chemicals is the densest in the current list) so one win becomes a story for the neighbours.
+- **Pricing floor.** ₹2 lakh minimum. My view: treat it as the entry price for Phase 1 (inventory, purchase, sales, accounting, GST) and quote manufacturing, QC and costing as Phase 2. Pricing a full manufacturing rollout at ₹2 lakh risks a loss-making or under-delivered first reference. This is judgement, not market data.
+- **Product choice per client.** Every account in the list carries an "Odoo vs ERPNext (initial)" column. Rule of thumb in section 7.
 
 ## 3. Industries and why each one needs an ERP
 
@@ -68,6 +76,27 @@ Split into signals we can **observe from outside** (usable for list building) an
 - Different departments keep their own Excel files (production plan, dispatch plan, QC register).
 - A key accounts or stores person left recently and things fell apart.
 
+## 4c. What buyers say online (desk research, 13 Nov 2026)
+
+Sources: Capterra reviews of TallyPrime (about 25 full reviews read), G2 Odoo vs TallyPrime comparison, Google-indexed Reddit threads in r/IndiaBusiness, r/Indian_Business, r/StartUpIndia, r/Odoo (Reddit itself blocks automated reading, so only titles and snippets were seen), and two vendor blogs (marked). Most Capterra reviewers are accountants, not factory owners, so treat this as directional.
+
+| Theme | Evidence | Strength |
+|---|---|---|
+| Tally UI is dated and hard to learn | 8 of 25 Capterra reviews; G2 tags "poor interface" (13) and "learning curve" (12) | Medium. Owners still like Tally for accounts, so do not attack Tally; position Odoo/ERPNext as the operations layer |
+| Limited customisation and reporting, "extract everything piece by piece" | 7 of 25 Capterra reviews | Medium-high. Ties to the MIS-executive hiring signal |
+| Slow with several users or large data | 4 of 25 Capterra reviews | Medium |
+| Multi-location stock weak in Tally | 1 Capterra review, plus Reddit snippets about "Excel, Tally, Busy, WhatsApp orders and disconnected inventory" | Medium. Matches the ICP multi-location filter |
+| Owners already bolt a production tool onto Tally | Reddit r/IndiaBusiness: owners report using Tranzact plus Tally for BOM, job cards, work orders, quoted at about ₹5,000 to ₹7,000 per month | **High. Tranzact is a direct competitor in this segment** and was missing from v0.1 |
+| "Odoo implementation is too costly" | Reddit snippet comparing Odoo and Tranzact | High. Lead with ERPNext or a fixed-scope Odoo phase 1 for price-sensitive buyers |
+| Accountants resist cloud | Reddit r/IndiaBusiness: "No real accountant wants cloud" style comments | Medium. Offer on-premise or hybrid, and involve the CA early |
+| Pharma needs batch and expiry | Reddit snippets on batch/expiry tracking in pharma | Medium |
+
+Published pricing seen (to verify on vendor sites before quoting): TallyPrime Silver about ₹22,500 one-time, Gold multi-user about ₹2,250/month; Odoo Standard about ₹725 per user per month billed yearly; ERPNext software free, Frappe Cloud hosting from about ₹410/month. Source: an editorial comparison on echai.ventures citing vendor price pages. Implementation timelines: G2 users report about 6 months for both Odoo and Tally; one Odoo implementer claims 10 to 12 weeks (vendor claim).
+
+**Competitors to name in the ICP:** Tally plus add-ons (TDL customisations), Tranzact, Busy, Marg (pharma distribution), Zoho Inventory/Books, SAP Business One partners, local custom-ERP developers.
+
+**What I could not get:** first-hand Reddit threads and Quora answers (both block automated reading). If you want this deeper, the fastest route is 5 to 10 short calls with plant owners you know, using the questions in section 9b.
+
 ## 5. Buyer personas
 
 Indian mid-market manufacturing is promoter-led. In practice one person decides, and two or three people can kill the deal.
@@ -94,6 +123,7 @@ Indian mid-market manufacturing is promoter-led. In practice one person decides,
 | "Odoo is a foreign product. Does it handle Indian GST?" | Unfamiliarity | Show Indian localisation live: GST returns, e-invoice and e-way bill integration, TDS. **Verify** exactly which India features are native in the Odoo version you deploy versus partner add-ons. |
 | "Our staff will not use it." | Low computer literacy on the floor | Mobile and barcode-based screens, Gujarati-speaking trainers, a super-user in each department. |
 | "Our CA does not want it." | CA's workflow is Tally-based | Offer to involve the CA early, give them an accountant login, show audit trail and standard reports. |
+| "We already use Tranzact / a Tally add-on for production." | Cheap tool covers the shop floor, accounts stay in Tally | Do not fight it head on. Ask what breaks: multi-plant stock, QC, costing, approvals, dashboards. Pitch ERPNext where price decides, Odoo where they want one system for sales, CRM, purchase and QC. |
 | "We are evaluating SAP B1 / a local ERP." | Active buying cycle | Good sign. Compete on total cost (licences, hardware, customisation), flexibility, and modules beyond accounting. Ask for the evaluation criteria. |
 | "Not now. After Diwali / after March close." | Timing or low priority | Agree a date. Position a discovery workshop now so implementation can start in the quiet period. April 1 is a natural go-live date for a new financial year. |
 | "Our data is confidential." | Cloud trust | Offer on-premise or Odoo.sh / private cloud hosting, role-based access. |
@@ -144,12 +174,10 @@ A simple version of BANT adapted for promoter-led companies:
 
 Move to proposal only when 1, 2 and 4 are true.
 
-## 10. What I need from you to sharpen this ICP
+## 10. Open questions
 
-These would change the targeting most:
+Answered on 13 Nov 2026: no live references yet (one past ERP build for a building-materials manufacturer in MP), ₹2 lakh minimum deal, product chosen per client.
 
-1. **Reference customers.** Which industries do you already have live Odoo or ERPNext customers in? Prospects in Ahmedabad will ask "who else uses it". I would weight the first 100 toward industries where you can name a reference.
-2. **Deal size.** Your typical first-phase implementation value. This tells us whether 50-employee companies are worth a visit.
-3. **Industries to exclude.** Any where you lack domain experience or have had bad projects?
-4. **Field team.** How many people will visit and call, and can they pitch in Gujarati? This decides how many accounts per week are realistic.
-5. **Apollo credit budget.** Approval to spend credits (see the phase plan for the estimate).
+Still open:
+1. How many people will visit and call, and can they pitch in Gujarati? This sets how many accounts per week are realistic.
+2. Apollo credit budget for work emails (estimate 60 to 100 credits for Ahmedabad).
