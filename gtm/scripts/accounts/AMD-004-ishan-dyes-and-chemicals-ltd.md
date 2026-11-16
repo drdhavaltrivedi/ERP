@@ -42,14 +42,30 @@ Before calling: check the person's current role on LinkedIn or the company site.
 4. Who besides you would be involved in choosing a system: your CA, accounts head, plant head?
 5. Is there a date that matters, like 1 April, a new plant, or an audit?
 
-## 3. Likely objections
+## 3. What to show them (their version of the value)
+
+1. Unit-wise P&L for pigment and sulphur divisions without month-end Excel work
+2. Audit trail that supports quarterly results and statutory audit
+3. Export invoices, packing lists and COAs generated from the sales order
+
+Lead with the first point. It is the one tied to their hook.
+
+## 4. Questions they will probably ask
+
+- **Will it pass audits? (pharma: GMP, chemicals: REACH, BRC and similar)** The system keeps a full audit trail of who changed what and when, plus lot and batch traceability from raw material to dispatch. It supports your compliance work, but certification is still your process. In pharma, say: "Batch records and QC release can be tracked in the system; we'll map it to your SOPs in discovery."
+- **Can we keep using Tally for accounts?** Yes, for a transition period. Your CA can keep filing from Tally while operations run in Odoo or ERPNext. Most clients move accounts over at the start of a financial year.
+- **Our CA only knows Tally. Will they be able to work with this?** We give your CA their own login and the standard reports they need: trial balance, ledgers, GST reports. We're happy to walk them through it in one session.
+
+Full answers are in `scripts/01-buyer-faq.md`. Fill the [fill] items there before calling.
+
+## 5. Likely objections
 
 - "Tally is enough." Agree it's good for accounts. Ask about unit-wise P&L, which is where Tally runs out.
 - "Too expensive." Phase 1 (inventory, purchase, sales, accounts, GST) starts from ₹2 lakh. ERPNext has no per-user licence if budget is tight.
 - "We already use Tranzact / a Tally add-on." Ask what still lives in Excel or WhatsApp.
 - "Who else uses it?" Mention a building-materials manufacturer in MP where you built the ERP (never name the client), and offer reference-deal terms.
 
-## 4. Email draft (not sent; send only after approval)
+## 6. Email draft (not sent; send only after approval)
 
 **Subject:** ishan plant-wise costing
 
@@ -74,7 +90,21 @@ If this isn't relevant, just reply "no thanks" and I won't follow up.
 
 **Follow-up, day 10 (same thread):** I'll leave this here. If it helps, I can send a one-page sketch of how your stock, production and accounts would sit in one system. No call needed, just reply "send it".
 
-## 5. Visit checklist
+## 7. After the call: WhatsApp and LinkedIn (send only after approval)
+
+**WhatsApp, same day (Gujarati):**
+
+> Shrinalજી, આજે વાત કરવા બદલ આભાર. [તમારું નામ], [કંપનીનું નામ]. આપણે ચર્ચા કરી તેમ, stock, costing અને હિસાબ એક જ system માં કેવી રીતે ચાલે તેનું ટૂંકું overview મોકલું છું. [visit date] એ મળવાનું ફાવશે?
+
+**WhatsApp, same day (English):**
+
+> Thanks for your time today, Shrinal. This is [your name] from [company]. As discussed, I'll share a short note on unit-wise P&L for pigment and sulphur divisions without month-end Excel work. Would [visit date] work for a 30-minute visit?
+
+**LinkedIn connection note (under 300 characters):**
+
+> Hi Shrinal, I saw that you're a listed company with separate pigment and sulphur units. We implement Odoo and ERPNext for manufacturers in Ahmedabad and I'd like to connect.
+
+## 8. Visit checklist
 
 - Bring: one-page Odoo/ERPNext overview, the MP building-materials case (anonymised), a phase 1 price range.
 - Ask to see: the stock register, a costing sheet, and how a purchase order is approved.

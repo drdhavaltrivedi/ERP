@@ -42,14 +42,30 @@ Before calling: check the person's current role on LinkedIn or the company site.
 4. Who besides you would be involved in choosing a system: your CA, accounts head, plant head?
 5. Is there a date that matters, like 1 April, a new plant, or an audit?
 
-## 3. Likely objections
+## 3. What to show them (their version of the value)
+
+1. Group consolidation across India, Brazil, Vietnam and Dubai in multiple currencies
+2. Sourcing and purchase approvals instead of email and WhatsApp
+3. Regulatory documents linked to each product and market
+
+Lead with the first point. It is the one tied to their hook.
+
+## 4. Questions they will probably ask
+
+- **Multiple plants, companies or countries?** Yes. Multi-warehouse, multi-company and multi-currency are standard in both. This is one of the main reasons to move off Tally.
+- **Is our data safe? Who can see it?** Each user sees only what their role allows. You can host on a cloud server in India, or on your own server at the office. You own the data and can export it any time.
+- **Why both Odoo and ERPNext? Isn't that confusing?** It lets us recommend what fits you instead of pushing one product. Odoo is more polished and covers more areas: CRM, website, quality, helpdesk. ERPNext is open source with no per-user licence, so it's cheaper to run and easier to customise. We tell you which one we'd pick for you, and why.
+
+Full answers are in `scripts/01-buyer-faq.md`. Fill the [fill] items there before calling.
+
+## 5. Likely objections
 
 - "Tally is enough." Agree it's good for accounts. Ask about multi-company, which is where Tally runs out.
 - "Too expensive." Phase 1 (inventory, purchase, sales, accounts, GST) starts from ₹2 lakh. Offer a fixed-scope phase 1 so cost is known up front.
 - "We already use Tranzact / a Tally add-on." Ask what still lives in Excel or WhatsApp.
 - "Who else uses it?" Mention a building-materials manufacturer in MP where you built the ERP (never name the client), and offer reference-deal terms.
 
-## 4. Email draft (not sent; send only after approval)
+## 6. Email draft (not sent; send only after approval)
 
 **Subject:** molkem batch records
 
@@ -74,7 +90,21 @@ If this isn't relevant, just reply "no thanks" and I won't follow up.
 
 **Follow-up, day 10 (same thread):** I'll leave this here. If it helps, I can send a one-page sketch of how your stock, production and accounts would sit in one system. No call needed, just reply "send it".
 
-## 5. Visit checklist
+## 7. After the call: WhatsApp and LinkedIn (send only after approval)
+
+**WhatsApp, same day (Gujarati):**
+
+> Preetજી, આજે વાત કરવા બદલ આભાર. [તમારું નામ], [કંપનીનું નામ]. આપણે ચર્ચા કરી તેમ, stock, costing અને હિસાબ એક જ system માં કેવી રીતે ચાલે તેનું ટૂંકું overview મોકલું છું. [visit date] એ મળવાનું ફાવશે?
+
+**WhatsApp, same day (English):**
+
+> Thanks for your time today, Preet. This is [your name] from [company]. As discussed, I'll share a short note on group consolidation across India, Brazil, Vietnam and Dubai in multiple currencies. Would [visit date] work for a 30-minute visit?
+
+**LinkedIn connection note (under 300 characters):**
+
+> Hi Preet, I saw that you have subsidiaries in Brazil, Vietnam and Dubai and 16 open roles including purchase and QA. We implement Odoo and ERPNext for manufacturers in Ahmedabad and I'd like to connect.
+
+## 8. Visit checklist
 
 - Bring: one-page Odoo/ERPNext overview, the MP building-materials case (anonymised), a phase 1 price range.
 - Ask to see: the stock register, a costing sheet, and how a purchase order is approved.

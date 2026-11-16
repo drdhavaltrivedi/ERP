@@ -42,14 +42,30 @@ Before calling: check the person's current role on LinkedIn or the company site.
 4. Who besides you would be involved in choosing a system: your CA, accounts head, plant head?
 5. Is there a date that matters, like 1 April, a new plant, or an audit?
 
-## 3. Likely objections
+## 3. What to show them (their version of the value)
+
+1. Export documentation for 40+ countries from the sales order
+2. REACH, GOTS and Halal paperwork linked to each batch
+3. Moving a 1979-founded business off legacy systems in phases
+
+Lead with the first point. It is the one tied to their hook.
+
+## 4. Questions they will probably ask
+
+- **Does it handle GST, e-invoicing and e-way bills?** Both have Indian localisation for GST invoices and returns data. E-invoice (IRN) and e-way bill generation through the government portals is supported. [verify: which edition and connector you deploy, and whether a GSP subscription is needed]
+- **Can you move our Tally data?** Yes. We move masters (customers, suppliers, items, ledgers) and opening balances as standard. Moving past transactions is possible but costs more, and is usually not needed.
+- **Will our business stop during the switch?** No. We run the new system alongside the old one for one or two weeks before go-live, so you can compare the numbers. Many clients go live on 1 April or at a month start, so the books open clean.
+
+Full answers are in `scripts/01-buyer-faq.md`. Fill the [fill] items there before calling.
+
+## 5. Likely objections
 
 - "Tally is enough." Agree it's good for accounts. Ask about export documentation, which is where Tally runs out.
 - "Too expensive." Phase 1 (inventory, purchase, sales, accounts, GST) starts from ₹2 lakh. ERPNext has no per-user licence if budget is tight.
 - "We already use Tranzact / a Tally add-on." Ask what still lives in Excel or WhatsApp.
 - "Who else uses it?" Mention a building-materials manufacturer in MP where you built the ERP (never name the client), and offer reference-deal terms.
 
-## 4. Email draft (not sent; send only after approval)
+## 6. Email draft (not sent; send only after approval)
 
 **Subject:** mahavir plant-wise costing
 
@@ -74,7 +90,21 @@ If this isn't relevant, just reply "no thanks" and I won't follow up.
 
 **Follow-up, day 10 (same thread):** I'll leave this here. If it helps, I can send a one-page sketch of how your stock, production and accounts would sit in one system. No call needed, just reply "send it".
 
-## 5. Visit checklist
+## 7. After the call: WhatsApp and LinkedIn (send only after approval)
+
+**WhatsApp, same day (Gujarati):**
+
+> નમસ્તે, આજે વાત કરવા બદલ આભાર. [તમારું નામ], [કંપનીનું નામ]. આપણે ચર્ચા કરી તેમ, stock, costing અને હિસાબ એક જ system માં કેવી રીતે ચાલે તેનું ટૂંકું overview મોકલું છું. [visit date] એ મળવાનું ફાવશે?
+
+**WhatsApp, same day (English):**
+
+> Thanks for your time today, sir/madam. This is [your name] from [company]. As discussed, I'll share a short note on export documentation for 40+ countries from the sales order. Would [visit date] work for a 30-minute visit?
+
+**LinkedIn connection note (under 300 characters):**
+
+> Hi there, I saw that you're a Two Star Export House shipping to 40+ countries since 1979. We implement Odoo and ERPNext for manufacturers in Ahmedabad and I'd like to connect.
+
+## 8. Visit checklist
 
 - Bring: one-page Odoo/ERPNext overview, the MP building-materials case (anonymised), a phase 1 price range.
 - Ask to see: the stock register, a costing sheet, and how a purchase order is approved.

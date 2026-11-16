@@ -42,14 +42,30 @@ Before calling: check the person's current role on LinkedIn or the company site.
 4. Who besides you would be involved in choosing a system: your CA, accounts head, plant head?
 5. Is there a date that matters, like 1 April, a new plant, or an audit?
 
-## 3. Likely objections
+## 3. What to show them (their version of the value)
+
+1. Lot traceability across Behrampura, Dholka and the central warehouse
+2. Domestic and export sales desks working from the same live stock
+3. Certification records (FSSC 22000, Halal, RSPO) linked to batches
+
+Lead with the first point. It is the one tied to their hook.
+
+## 4. Questions they will probably ask
+
+- **Pharma: batch, expiry, FEFO, QC release?** Yes: lot and serial tracking with expiry dates, FEFO picking, quality checks before release, and quarantine stock. QC module availability differs by product and edition [verify for Odoo: Quality is an Enterprise app].
+- **Will it pass audits? (pharma: GMP, chemicals: REACH, BRC and similar)** The system keeps a full audit trail of who changed what and when, plus lot and batch traceability from raw material to dispatch. It supports your compliance work, but certification is still your process. In pharma, say: "Batch records and QC release can be tracked in the system; we'll map it to your SOPs in discovery."
+- **Multiple plants, companies or countries?** Yes. Multi-warehouse, multi-company and multi-currency are standard in both. This is one of the main reasons to move off Tally.
+
+Full answers are in `scripts/01-buyer-faq.md`. Fill the [fill] items there before calling.
+
+## 5. Likely objections
 
 - "Tally is enough." Agree it's good for accounts. Ask about lot traceability for FSSC 22000 and pharma customers, which is where Tally runs out.
 - "Too expensive." Phase 1 (inventory, purchase, sales, accounts, GST) starts from ₹2 lakh. Offer a fixed-scope phase 1 so cost is known up front.
 - "We already use Tranzact / a Tally add-on." Ask what still lives in Excel or WhatsApp.
 - "Who else uses it?" Mention a building-materials manufacturer in MP where you built the ERP (never name the client), and offer reference-deal terms.
 
-## 4. Email draft (not sent; send only after approval)
+## 6. Email draft (not sent; send only after approval)
 
 **Subject:** vasa batch records
 
@@ -74,7 +90,21 @@ If this isn't relevant, just reply "no thanks" and I won't follow up.
 
 **Follow-up, day 10 (same thread):** I'll leave this here. If it helps, I can send a one-page sketch of how your stock, production and accounts would sit in one system. No call needed, just reply "send it".
 
-## 5. Visit checklist
+## 7. After the call: WhatsApp and LinkedIn (send only after approval)
+
+**WhatsApp, same day (Gujarati):**
+
+> Jaiminજી, આજે વાત કરવા બદલ આભાર. [તમારું નામ], [કંપનીનું નામ]. આપણે ચર્ચા કરી તેમ, stock, costing અને હિસાબ એક જ system માં કેવી રીતે ચાલે તેનું ટૂંકું overview મોકલું છું. [visit date] એ મળવાનું ફાવશે?
+
+**WhatsApp, same day (English):**
+
+> Thanks for your time today, Jaimin. This is [your name] from [company]. As discussed, I'll share a short note on lot traceability across Behrampura, Dholka and the central warehouse. Would [visit date] work for a 30-minute visit?
+
+**LinkedIn connection note (under 300 characters):**
+
+> Hi Jaimin, I saw that you have two plants plus a central warehouse and export to 50+ countries. We implement Odoo and ERPNext for manufacturers in Ahmedabad and I'd like to connect.
+
+## 8. Visit checklist
 
 - Bring: one-page Odoo/ERPNext overview, the MP building-materials case (anonymised), a phase 1 price range.
 - Ask to see: the stock register, a costing sheet, and how a purchase order is approved.

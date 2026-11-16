@@ -42,14 +42,30 @@ Before calling: check the person's current role on LinkedIn or the company site.
 4. Who besides you would be involved in choosing a system: your CA, accounts head, plant head?
 5. Is there a date that matters, like 1 April, a new plant, or an audit?
 
-## 3. Likely objections
+## 3. What to show them (their version of the value)
+
+1. Export documents and multi-currency receivables for 40+ countries
+2. Batch and shade records per dye or pigment lot
+3. A simple single-plant setup; ERPNext keeps running cost low
+
+Lead with the first point. It is the one tied to their hook.
+
+## 4. Questions they will probably ask
+
+- **What is the licence cost?** - Odoo: priced per user per month, billed yearly. The India Standard plan was listed around ₹725 per user per month. [verify on odoo.com/pricing]
+- **Does it handle GST, e-invoicing and e-way bills?** Both have Indian localisation for GST invoices and returns data. E-invoice (IRN) and e-way bill generation through the government portals is supported. [verify: which edition and connector you deploy, and whether a GSP subscription is needed]
+- **Can you move our Tally data?** Yes. We move masters (customers, suppliers, items, ledgers) and opening balances as standard. Moving past transactions is possible but costs more, and is usually not needed.
+
+Full answers are in `scripts/01-buyer-faq.md`. Fill the [fill] items there before calling.
+
+## 5. Likely objections
 
 - "Tally is enough." Agree it's good for accounts. Ask about export documents, which is where Tally runs out.
 - "Too expensive." Phase 1 (inventory, purchase, sales, accounts, GST) starts from ₹2 lakh. ERPNext has no per-user licence if budget is tight.
 - "We already use Tranzact / a Tally add-on." Ask what still lives in Excel or WhatsApp.
 - "Who else uses it?" Mention a building-materials manufacturer in MP where you built the ERP (never name the client), and offer reference-deal terms.
 
-## 4. Email draft (not sent; send only after approval)
+## 6. Email draft (not sent; send only after approval)
 
 **Subject:** alps plant-wise costing
 
@@ -74,7 +90,21 @@ If this isn't relevant, just reply "no thanks" and I won't follow up.
 
 **Follow-up, day 10 (same thread):** I'll leave this here. If it helps, I can send a one-page sketch of how your stock, production and accounts would sit in one system. No call needed, just reply "send it".
 
-## 5. Visit checklist
+## 7. After the call: WhatsApp and LinkedIn (send only after approval)
+
+**WhatsApp, same day (Gujarati):**
+
+> Hareshજી, આજે વાત કરવા બદલ આભાર. [તમારું નામ], [કંપનીનું નામ]. આપણે ચર્ચા કરી તેમ, stock, costing અને હિસાબ એક જ system માં કેવી રીતે ચાલે તેનું ટૂંકું overview મોકલું છું. [visit date] એ મળવાનું ફાવશે?
+
+**WhatsApp, same day (English):**
+
+> Thanks for your time today, Haresh. This is [your name] from [company]. As discussed, I'll share a short note on export documents and multi-currency receivables for 40+ countries. Would [visit date] work for a 30-minute visit?
+
+**LinkedIn connection note (under 300 characters):**
+
+> Hi Haresh, I saw that you sell dyes and pigments in 40+ countries. We implement Odoo and ERPNext for manufacturers in Ahmedabad and I'd like to connect.
+
+## 8. Visit checklist
 
 - Bring: one-page Odoo/ERPNext overview, the MP building-materials case (anonymised), a phase 1 price range.
 - Ask to see: the stock register, a costing sheet, and how a purchase order is approved.

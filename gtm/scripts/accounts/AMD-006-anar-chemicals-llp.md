@@ -42,14 +42,30 @@ Before calling: check the person's current role on LinkedIn or the company site.
 4. Who besides you would be involved in choosing a system: your CA, accounts head, plant head?
 5. Is there a date that matters, like 1 April, a new plant, or an audit?
 
-## 3. Likely objections
+## 3. What to show them (their version of the value)
+
+1. Multi-currency purchasing for the US procurement division alongside Vatva production
+2. Compliance data (energy, waste, safety records) in one place for EcoVadis and AEO renewals
+3. Mumbai office and Vatva factory stock in one view
+
+Lead with the first point. It is the one tied to their hook.
+
+## 4. Questions they will probably ask
+
+- **Multiple plants, companies or countries?** Yes. Multi-warehouse, multi-company and multi-currency are standard in both. This is one of the main reasons to move off Tally.
+- **Does it handle GST, e-invoicing and e-way bills?** Both have Indian localisation for GST invoices and returns data. E-invoice (IRN) and e-way bill generation through the government portals is supported. [verify: which edition and connector you deploy, and whether a GSP subscription is needed]
+- **Is our data safe? Who can see it?** Each user sees only what their role allows. You can host on a cloud server in India, or on your own server at the office. You own the data and can export it any time.
+
+Full answers are in `scripts/01-buyer-faq.md`. Fill the [fill] items there before calling.
+
+## 5. Likely objections
 
 - "Tally is enough." Agree it's good for accounts. Ask about multi-currency purchasing, which is where Tally runs out.
 - "Too expensive." Phase 1 (inventory, purchase, sales, accounts, GST) starts from ₹2 lakh. Offer a fixed-scope phase 1 so cost is known up front.
 - "We already use Tranzact / a Tally add-on." Ask what still lives in Excel or WhatsApp.
 - "Who else uses it?" Mention a building-materials manufacturer in MP where you built the ERP (never name the client), and offer reference-deal terms.
 
-## 4. Email draft (not sent; send only after approval)
+## 6. Email draft (not sent; send only after approval)
 
 **Subject:** anar plant-wise costing
 
@@ -74,7 +90,21 @@ If this isn't relevant, just reply "no thanks" and I won't follow up.
 
 **Follow-up, day 10 (same thread):** I'll leave this here. If it helps, I can send a one-page sketch of how your stock, production and accounts would sit in one system. No call needed, just reply "send it".
 
-## 5. Visit checklist
+## 7. After the call: WhatsApp and LinkedIn (send only after approval)
+
+**WhatsApp, same day (Gujarati):**
+
+> Sanjayજી, આજે વાત કરવા બદલ આભાર. [તમારું નામ], [કંપનીનું નામ]. આપણે ચર્ચા કરી તેમ, stock, costing અને હિસાબ એક જ system માં કેવી રીતે ચાલે તેનું ટૂંકું overview મોકલું છું. [visit date] એ મળવાનું ફાવશે?
+
+**WhatsApp, same day (English):**
+
+> Thanks for your time today, Sanjay. This is [your name] from [company]. As discussed, I'll share a short note on multi-currency purchasing for the US procurement division alongside Vatva production. Would [visit date] work for a 30-minute visit?
+
+**LinkedIn connection note (under 300 characters):**
+
+> Hi Sanjay, I saw that you launched a US procurement division in 2024 and hold AEO T2 and EcoVadis Silver. We implement Odoo and ERPNext for manufacturers in Ahmedabad and I'd like to connect.
+
+## 8. Visit checklist
 
 - Bring: one-page Odoo/ERPNext overview, the MP building-materials case (anonymised), a phase 1 price range.
 - Ask to see: the stock register, a costing sheet, and how a purchase order is approved.

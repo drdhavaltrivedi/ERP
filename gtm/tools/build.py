@@ -10,7 +10,12 @@ from collections import Counter, defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 GTM = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-from hooks import H
+from hooks import H, P
+FAQ = {}
+_faq = os.path.join(GTM, "scripts", "01-buyer-faq.md")
+if os.path.exists(_faq):
+    for m in re.finditer(r"^\*\*(\d+)\. (.+?)\*\*\s*\n(.+?)$", open(_faq, encoding="utf-8").read(), re.M):
+        FAQ[int(m.group(1))] = (m.group(2), m.group(3).strip())
 
 seed = {}
 exec(open(os.path.join(HERE, "research_seed.py")).read(), seed)
@@ -197,14 +202,26 @@ Before calling: check the person's current role on LinkedIn or the company site.
 4. Who besides you would be involved in choosing a system: your CA, accounts head, plant head?
 5. Is there a date that matters, like 1 April, a new plant, or an audit?
 
-## 3. Likely objections
+## 3. What to show them (their version of the value)
+
+{{talk_md}}
+
+Lead with the first point. It is the one tied to their hook.
+
+## 4. Questions they will probably ask
+
+{{asks_md}}
+
+Full answers are in `scripts/01-buyer-faq.md`. Fill the [fill] items there before calling.
+
+## 5. Likely objections
 
 - "Tally is enough." Agree it's good for accounts. Ask about {h['pain'].split(',')[0][0].lower() + h['pain'].split(',')[0][1:]}, which is where Tally runs out.
 - "Too expensive." Phase 1 (inventory, purchase, sales, accounts, GST) starts from ₹2 lakh. {"ERPNext has no per-user licence if budget is tight." if "ERPNext" in r['odoo_vs_erpnext'] or "Either" in r['odoo_vs_erpnext'] else "Offer a fixed-scope phase 1 so cost is known up front."}
 - "We already use Tranzact / a Tally add-on." Ask what still lives in Excel or WhatsApp.
 - "Who else uses it?" Mention a building-materials manufacturer in MP where you built the ERP (never name the client), and offer reference-deal terms.
 
-## 4. Email draft (not sent; send only after approval)
+## 6. Email draft (not sent; send only after approval)
 
 **Subject:** {subject(a, h)}
 
@@ -229,12 +246,34 @@ If this isn't relevant, just reply "no thanks" and I won't follow up.
 
 **Follow-up, day 10 (same thread):** I'll leave this here. If it helps, I can send a one-page sketch of how your stock, production and accounts would sit in one system. No call needed, just reply "send it".
 
-## 5. Visit checklist
+## 7. After the call: WhatsApp and LinkedIn (send only after approval)
+
+**WhatsApp, same day (Gujarati):**
+
+> {dm_first + 'જી' if dm_first else 'નમસ્તે'}, આજે વાત કરવા બદલ આભાર. [તમારું નામ], [કંપનીનું નામ]. આપણે ચર્ચા કરી તેમ, stock, costing અને હિસાબ એક જ system માં કેવી રીતે ચાલે તેનું ટૂંકું overview મોકલું છું. [visit date] એ મળવાનું ફાવશે?
+
+**WhatsApp, same day (English):**
+
+> Thanks for your time today, {dm_first or 'sir/madam'}. This is [your name] from [company]. As discussed, I'll share a short note on {{short_talk_en}}. Would [visit date] work for a 30-minute visit?
+
+**LinkedIn connection note (under 300 characters):**
+
+> {{li_note}}
+
+## 8. Visit checklist
 
 - Bring: one-page Odoo/ERPNext overview, the MP building-materials case (anonymised), a phase 1 price range.
 - Ask to see: the stock register, a costing sheet, and how a purchase order is approved.
 - Leave with: the main pain in their words, who else decides, and a date for a demo or a proposal.
 """
+    pp = P.get(a["company"], dict(talk=[], asks=[]))
+    talk_md = "\n".join(f"{i}. {t}" for i, t in enumerate(pp["talk"], 1)) or "1. Stock, purchase, sales and accounts in one system"
+    asks_md = "\n".join(f"- **{FAQ[n][0]}** {FAQ[n][1]}" for n in pp["asks"] if n in FAQ) or "- See the FAQ."
+    first_talk = (pp["talk"][0] if pp["talk"] else "stock and accounts in one system")
+    li_note = f"Hi {dm_first or 'there'}, I saw that {h['en']}. We implement Odoo and ERPNext for manufacturers in Ahmedabad and I'd like to connect."
+    if len(li_note) > 295: li_note = f"Hi {dm_first or 'there'}, we implement Odoo and ERPNext for Ahmedabad manufacturers. I saw {a['company'].split(' (')[0]}'s recent growth and would like to connect."
+    md = md.replace("{talk_md}", talk_md).replace("{asks_md}", asks_md).replace("{li_note}", li_note)
+    md = md.replace("{short_talk_en}", first_talk[0].lower() + first_talk[1:]).replace("{short_talk_gu}", "stock, costing અને હિસાબ એક system માં")
     md = md.replace("\n\n\n", "\n\n")
     with open(os.path.join(GTM, "scripts", "accounts", f"{r['account_id']}-{slug(a['company'])}.md"), "w", encoding="utf-8") as f:
         f.write(md)

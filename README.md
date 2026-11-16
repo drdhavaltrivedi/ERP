@@ -13,7 +13,8 @@ This repo holds the go-to-market work for selling Odoo and ERPNext implementatio
 | `gtm/leads/held.csv` | Accounts researched but held back, with the reason |
 | `gtm/logs/*.csv` | Activity logs: calls, visits, emails, LinkedIn and WhatsApp |
 | `gtm/scripts/00-call-playbook.md` | Language guide, call flow, objection answers, logging rules |
-| `gtm/scripts/accounts/AMD-xxx-*.md` | One personalised script per account: call opener in Gujarati, Hindi or English, discovery questions, objections, email draft, visit checklist |
+| `gtm/scripts/01-buyer-faq.md` | 31 questions prospects will ask, with answers (top 10 also in Gujarati) |
+| `gtm/scripts/accounts/AMD-xxx-*.md` | One personalised script per account: hook, call opener in Gujarati/Hindi/English, what to show them, questions they will ask, objections, email draft with follow-ups, WhatsApp and LinkedIn notes, visit checklist |
 | `gtm/tools/` | `research_seed.py` (research data), `hooks.py` (personalisation), `build.py` (rebuilds the tracker view and scripts) |
 
 ## Daily routine

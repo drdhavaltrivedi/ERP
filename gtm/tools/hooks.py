@@ -113,3 +113,142 @@ H = {
    gu="તમે Two Star Export House છો અને 1979 થી 40 થી વધુ દેશમાં export કરો છો",
    pain="Export documentation, REACH/GOTS paperwork, batch records"),
 }
+
+# Deeper personalisation: what we would show them (talk), and the questions they are most likely to ask (FAQ numbers in 01-buyer-faq.md).
+P = {
+ "Gopani Product Systems / Gopani Filters Pvt Ltd": dict(
+   talk=["One login for all group companies, with inter-company sales and a consolidated P&L each month",
+         "CRM pipeline per regional sales manager, so new hires are productive from week one",
+         "Stock of cartridges, bags and housings by warehouse, with reorder alerts"],
+   asks=[27, 5, 10]),
+ "Mediwin Pharmaceuticals": dict(
+   talk=["Batch and expiry visible across Naroda and Sari in one screen, with FEFO dispatch",
+         "Export registrations and product-country mapping so the 350-product target doesn't live in Excel",
+         "Separate product lines (pharma, nutraceutical, cosmetics) with their own costing"],
+   asks=[24, 23, 11]),
+ "Rohan Dyes & Intermediates Ltd": dict(
+   talk=["Inter-plant transfers between Vatva, Khambhat and Dahej tracked like sales, so stock always matches",
+         "Yield and by-product costing per batch per plant",
+         "Ready structure for the new sulfuryl chloride line before it starts"],
+   asks=[25, 27, 13]),
+ "Ishan Dyes and Chemicals Ltd": dict(
+   talk=["Unit-wise P&L for pigment and sulphur divisions without month-end Excel work",
+         "Audit trail that supports quarterly results and statutory audit",
+         "Export invoices, packing lists and COAs generated from the sales order"],
+   asks=[23, 17, 18]),
+ "Ushanti Colour Chem Ltd": dict(
+   talk=["Vatva and Saykha plants plus the subsidiary in one system, consolidated for board reporting",
+         "Shade and batch records for dyes, linked to customer complaints",
+         "Faster quarterly close for a listed company"],
+   asks=[27, 23, 13]),
+ "Anar Chemicals LLP": dict(
+   talk=["Multi-currency purchasing for the US procurement division alongside Vatva production",
+         "Compliance data (energy, waste, safety records) in one place for EcoVadis and AEO renewals",
+         "Mumbai office and Vatva factory stock in one view"],
+   asks=[27, 21, 19]),
+ "Crystal Quinone Pvt Ltd": dict(
+   talk=["Five units, the sister company and Antwerp stock in one inventory view",
+         "Lot traceability from raw material to customer for BRC, FAMIQS and ISO 22000 audits",
+         "CDMO projects tracked with their own costing"],
+   asks=[27, 23, 25]),
+ "Verito Engineering Pvt Ltd": dict(
+   talk=["Enquiry to quote to BOM to work order, so every agitator or pump order has a real job cost",
+         "Regional offices and international branches see the same stock and order status",
+         "Spares and service history per installed unit"],
+   asks=[26, 27, 15]),
+ "YCUBE Engineered Solutions Pvt Ltd": dict(
+   talk=["Trading (Dezurik, Bermad) and own valve manufacturing in one system, with margins split",
+         "India, UAE and Thailand entities consolidated in multiple currencies",
+         "Sales offices quoting from live stock"],
+   asks=[27, 4, 6]),
+ "Cair Euromatic Automation Pvt Ltd": dict(
+   talk=["QC inspection checklists (incoming, final, third-party) recorded in the system instead of paper",
+         "Tender and GeM documents linked to each order",
+         "Two Narol units' stock and production in one view"],
+   asks=[23, 26, 12]),
+ "JEE Pumps Ltd": dict(
+   talk=["Foundry, machining and assembly costed per pump model",
+         "Controls and audit trail a public limited company needs, ready if listing is planned",
+         "Three campuses' stock and work orders in one view"],
+   asks=[26, 23, 11]),
+ "Vasa Pharmachem Pvt Ltd": dict(
+   talk=["Lot traceability across Behrampura, Dholka and the central warehouse",
+         "Domestic and export sales desks working from the same live stock",
+         "Certification records (FSSC 22000, Halal, RSPO) linked to batches"],
+   asks=[24, 23, 27]),
+ "Molkem": dict(
+   talk=["Group consolidation across India, Brazil, Vietnam and Dubai in multiple currencies",
+         "Sourcing and purchase approvals instead of email and WhatsApp",
+         "Regulatory documents linked to each product and market"],
+   asks=[27, 19, 4]),
+ "APDM Pharmaceuticals Pvt Ltd": dict(
+   talk=["Set up batch records and QC release correctly now, before US and UK audits",
+         "Product costing per CDMO client and per ANDA product",
+         "A system that scales with the plant instead of replacing Tally later"],
+   asks=[24, 23, 11]),
+ "Indo-Air Compressors Pvt Ltd": dict(
+   talk=["Service tickets, AMC contracts and spares usage tracked per installed compressor",
+         "Regional service engineers update visits from the phone",
+         "Export orders to 27 countries with multi-currency invoicing"],
+   asks=[28, 29, 5]),
+ "Techflow Enterprises Pvt Ltd": dict(
+   talk=["Project costing per order (dust collector, ESP), with material planning for large Tata-type orders",
+         "Milestone billing and receivables per project",
+         "Export orders, which were 22% of sales, with their own documentation"],
+   asks=[26, 15, 9]),
+ "PressureJet Systems Pvt Ltd": dict(
+   talk=["Spares inventory and service history per pump sold in 50+ countries",
+         "Separate sales, spares and service desks working from one customer record",
+         "Thaltej head office and Pirana plant in one system"],
+   asks=[26, 28, 6]),
+ "Ecosafe Agriscience India Pvt Ltd": dict(
+   talk=["Dealer schemes, credit limits and collections tracked per dealer",
+         "Seasonal stock planning across 70+ formulations",
+         "Batch and expiry on agrochemicals"],
+   asks=[25, 28, 5]),
+ "Hindprakash Chemicals Pvt Ltd": dict(
+   talk=["Five plants plus Shanghai, Vietnam and UAE companies consolidated",
+         "Trading and manufacturing margins split by product line",
+         "2,000+ customers with credit control and CRM"],
+   asks=[27, 4, 11]),
+ "Elixir Pharma Chem Pvt Ltd": dict(
+   talk=["Batch records and QC release as production staff doubles",
+         "API costing including solvent recovery and yield",
+         "WHO-GMP and EU-GMP audit trail"],
+   asks=[24, 23, 12]),
+ "MBH Pumps (Gujarat) Pvt Ltd": dict(
+   talk=["Export enquiry to quote to dispatch, for the new export sales manager",
+         "Spares and service desk working from the same customer and pump records",
+         "Dealer and contractor orders with credit control"],
+   asks=[26, 28, 5]),
+ "HOF Pharmaceuticals Ltd": dict(
+   talk=["Batch traceability and deviation records that support the PIC/S and EU-GMP push",
+         "Country registrations for 21 export markets linked to products",
+         "Near-expiry visibility to cut write-offs"],
+   asks=[24, 23, 13]),
+ "Alps Chemicals Pvt Ltd": dict(
+   talk=["Export documents and multi-currency receivables for 40+ countries",
+         "Batch and shade records per dye or pigment lot",
+         "A simple single-plant setup; ERPNext keeps running cost low"],
+   asks=[6, 21, 16]),
+ "Airmax Pneumatics Ltd": dict(
+   talk=["PSU and tender documentation linked to each order (BHEL, NTPC)",
+         "Order-wise costing for cylinders and valves",
+         "HO and Narol factory in one system"],
+   asks=[26, 5, 12]),
+ "Fluid Logic Systems Pvt Ltd (Systems Group)": dict(
+   talk=["Engineer-to-order BOMs for each hydraulic system",
+         "Actual vs estimated cost per job",
+         "Bought-out components (Voith, Nachi) tracked against projects"],
+   asks=[26, 15, 5]),
+ "Leistung Engineering Pvt Ltd": dict(
+   talk=["Material test certificates and heat numbers traced per job for ASME and PED",
+         "Pharma customers' documentation packs generated from the job",
+         "Job costing for filtration systems and bioreactors"],
+   asks=[23, 26, 15]),
+ "Mahavir Industries (Mahavir Pigments)": dict(
+   talk=["Export documentation for 40+ countries from the sales order",
+         "REACH, GOTS and Halal paperwork linked to each batch",
+         "Moving a 1979-founded business off legacy systems in phases"],
+   asks=[21, 16, 13]),
+}
