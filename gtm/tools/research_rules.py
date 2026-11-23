@@ -26,6 +26,8 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "arlifesciencesindia.com": "site states 200-300 staff, above the band; head office likely Mumbai",
+    "walparnutritions.com": "site states 350+ team across 3 units, above the 50-200 band",
     "kaynessemicon.com": "subsidiary of listed Kaynes Technology; large OSAT investment, scale well over 200 and group-level buyers",
     "dmakindia.com": "no plant street address on site",
     "arvind-pd.in": "no plant street address or phone on site; JV of a large listed group",
@@ -74,6 +76,10 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "memphisvisioncare.com": "no leader named on site; ask for the owner on the first call",
+    "rtcl.in": "no leader named on site; ask for the owner on the first call",
+    "parthind.com": "no leader named on site; ask for the owner on the first call",
+    "sunteknovation.com": "export count conflicts on own site (13+ vs 60+); do not quote a number on the call",
     "neosealengg.com": "no leader named on site; ask for the owner on the first call",
     "auraplastics.com": "four plants across Gujarat, Hyderabad and Nagpur: likely top of the 50-200 band or above, confirm headcount",
     "gunjanpaints.com": "corporate office in Mumbai; confirm whether decisions sit at the Kalol plant",
