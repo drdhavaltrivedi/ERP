@@ -26,6 +26,9 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "atigo.in": "no plant stated; Ahmedabad office and UK office only",
+    "aragonpeb.com": "factory is at Bhavpar (Sabarkantha), outside the Ahmedabad belt",
+    "blutris.com": "plant is at Kadi (Mehsana), outside the Ahmedabad belt",
     "orleylabs.com": "leadership bios on site look like template filler; verify the company is real and active before outreach",
     "mediskypharma.com": "plant is at Talod (Sabarkantha), outside the Ahmedabad belt",
     "bioscropcare.com": "only plant is at Dahej (Bharuch); Ahmedabad is an office",
@@ -46,6 +49,8 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "dpconsteel.in": "Factory is at Kathlal (Kheda); office in Jagatpur. Propose the office for the visit.",
+    "girnarayurvedic.net": "IndiaMART lists 101-500 staff; confirm size on the call.",
     "kxol.in": "Plant at Santej; second unit in Kandla SEZ.",
     "connotegroup.com": "Manufacturing page mentions ERP integration; ask what system they run before pitching.",
     "dutronindia.com": "BSE-listed group with plants at Vatva, Bharuch and Kheda; check headcount, may be above 200.",
