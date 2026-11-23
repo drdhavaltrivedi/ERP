@@ -26,6 +26,8 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "orleylabs.com": "leadership bios on site look like template filler; verify the company is real and active before outreach",
+    "mediskypharma.com": "plant is at Talod (Sabarkantha), outside the Ahmedabad belt",
     "bioscropcare.com": "only plant is at Dahej (Bharuch); Ahmedabad is an office",
     "indianinovatix.com": "no plant address on site; verify location before outreach",
     "brengineeringworks.com": "site is script-only; no plant address or contact could be verified",
@@ -45,6 +47,9 @@ HOLD_OVERRIDE = {
 # Kept, with a caution for the caller.
 NOTES = {
     "kxol.in": "Plant at Santej; second unit in Kandla SEZ.",
+    "connotegroup.com": "Manufacturing page mentions ERP integration; ask what system they run before pitching.",
+    "dutronindia.com": "BSE-listed group with plants at Vatva, Bharuch and Kheda; check headcount, may be above 200.",
+    "valens.co.in": "Site says 65 team members; plant address not stated, confirm on call.",
     "lachandra.in": "Three API plants, locations not named; head office in Thaltej. Confirm plant location.",
     "avore.in": "EV start-up; plant at Chhatral. Confirm production headcount.",
     "com-fit.com": "Site says 254+ employees; plant at Nandasan (Kadi). Confirm headcount.",
