@@ -26,6 +26,10 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "bioscropcare.com": "only plant is at Dahej (Bharuch); Ahmedabad is an office",
+    "indianinovatix.com": "no plant address on site; verify location before outreach",
+    "brengineeringworks.com": "site is script-only; no plant address or contact could be verified",
+    "comptechmotocorp.com": "same phone as Comptech Equipments (already listed); treat as one account",
     "dusons.in": "plants are Mathasuliya (Sabarkantha) and Faridabad, not the Ahmedabad belt; Ahmedabad is an office only",
     "daffodilgroup.in": "six-company group with a 500,000 sq ft plant and US/EU offices; likely over 500 staff",
     "ctmtechtextile.com": "only plant is in Mehsana, outside the Ahmedabad belt",
