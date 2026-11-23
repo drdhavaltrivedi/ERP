@@ -19,6 +19,7 @@ NAMES = {
     "powertracgroup.com": "Powertrac Group",
     "techno-instruments.com": "Techno Instruments",
     "shreeadditives.com": "Shree Additives Pharma and Food Pvt. Ltd.",
+    "asiansteels.com": "Asian Group (Asian Tubes, Asian Mills)",
     "biotekortho.com": "Chetan Meditech Pvt. Ltd. (Biotek)",
 }
 
@@ -34,6 +35,18 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "shivamdiemaking.co.in": "Single Odhav unit; headcount not stated, may be below 50. Confirm on the call.",
+    "srdiecasting.in": "Gmail contact and headcount not stated; may be below 50. Confirm on the call.",
+    "rishabhind.in": "Also a stockist; team names on site look like template text. Confirm headcount and own plant.",
+    "dynamicrubbers.com": "Plants in Ahmedabad, Jaipur and Kolkata; Ahmedabad factory address not stated.",
+    "janshaktiindia.com": "Factory at Bakrol; office and experience centre in Bapunagar.",
+    "shreebhavyafabrics.com": "Listed company with one 25,000 sq ft unit; unit address not stated.",
+    "embeeindia.com": "Site says 150+ people; Changodar plant.",
+    "asiansteels.com": "Group of 4 units (Chhatral, Ankhol, Savli); confirm headcount. Hindi guessed from surnames.",
+    "medicarehygiene.in": "Site says 300+ team; 2 production units, locations not stated. Hindi guessed from surnames.",
+    "manoharinternational.com": "Manufacturing unit addresses not stated; group companies in Dubai and Sri Lanka.",
+    "irmome.com": "450,000 sq ft plant and part of IRM Group; confirm headcount, may be above the ICP band.",
+    "maximtubes.com": "Units at Chhatral and Pansar (Gandhinagar belt).",
     "waacables.com": "Plant at Nandasan (Kadi); head office in Gandhinagar.",
     "veerelectronics.com": "Gandhinagar; own plant location not stated, confirm.",
     "deeppoly.com": "BSE listed with several plants and branches; confirm headcount.",
