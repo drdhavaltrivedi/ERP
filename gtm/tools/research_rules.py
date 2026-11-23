@@ -17,6 +17,8 @@ NAMES = {
     "deedygroup.com": "Deedy Chemicals Pvt Ltd",
     "friendssteel.com": "Friends Steel Group (Friends Ispat Ltd)",
     "powertracgroup.com": "Powertrac Group",
+    "techno-instruments.com": "Techno Instruments",
+    "shreeadditives.com": "Shree Additives Pharma and Food Pvt. Ltd.",
     "biotekortho.com": "Chetan Meditech Pvt. Ltd. (Biotek)",
 }
 
@@ -26,11 +28,17 @@ HOLD_OVERRIDE = {
     "hpbl.in": "part of the Plastene group with 8 plants; likely over 500 staff",
     "bloomdekor.com": "site links an insolvency (CIRP) page; check status before any outreach",
     "raghuvirexim.com": "listed, several large units; likely over 500 staff",
+    "rajputanastainless.com": "plant is at Kalol in Panchmahals (Halol), not the Ahmedabad belt",
     "apisyn.com": "350+ scientists stated; total headcount likely over 500",
 }
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "waacables.com": "Plant at Nandasan (Kadi); head office in Gandhinagar.",
+    "veerelectronics.com": "Gandhinagar; own plant location not stated, confirm.",
+    "deeppoly.com": "BSE listed with several plants and branches; confirm headcount.",
+    "shreeadditives.com": "Plant at Nandasan (Kadi); corporate office in Santej.",
+    "ainnovative.com": "Leaders not read from the site yet; ask the receptionist.",
     "yamir.in": "Plant in Kadi; head office in Ahmedabad.",
     "gcacpl.co.in": "Plant at Mundra; office in Ahmedabad. Visit the office.",
     "satvam.in": "Factory in Prantij; office on SG Highway.",

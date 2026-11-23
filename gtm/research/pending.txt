@@ -1,27 +1,5 @@
 # Not researched yet (web-fetch limit). Re-run research on these.
-techno-instruments.com
-waacables.com
-ftfpharma.com
-alankarautomotives.com
-veerelectronics.com
-astron-research.com
-iris-automation.com
-degindia.com
-greenfieldcontrol.com
-rajputanastainless.com
-sumarbiotech.com
-patelsairtemp.com
-shilpgravures.com
-deeppoly.com
-avantikamedexpl.com
-ainnovative.com
-shreeadditives.com
-mayurwovens.com
 endeavourweigh.com
-windsonindia.com
-chironsurgimed.com
-sakarindustries.com
-prima-automation.com
 zymocosmetics.com
 stivaph.com
 plasmainduction.com
@@ -30,3 +8,9 @@ bostonbulkchemicals.com
 kamakshisudpack.com
 vimsonderma.com
 amtechelectronics.com
+atulgreentech.co.in
+shitalind.com
+gopalglass.com
+trioelevators.com
+futabasangyo.com
+nkcapingmachine.com
