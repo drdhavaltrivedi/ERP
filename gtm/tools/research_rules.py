@@ -26,6 +26,9 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "atreypharma.com": "site says 250 team members across two units; above the 200 band",
+    "rksynthesis.com": "site says 250+ workforce across three plants; above the 200 band",
+    "jindalhome.in": "500 employees stated, above ICP",
     "sterlingagrichem.com": "plant location not stated (02717 phone code suggests Sanand/Bavla); confirm before outreach",
     "deepakpolyplast.in": "plant location not stated; only an SG Highway office",
     "alfapumpindia.com": "address is a shopping-centre unit with a gmail contact; no plant shown",
@@ -58,6 +61,10 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "ambicapolymer.com": "plant street address not on site; confirm on call",
+    "4maticvalves.com": "plant street address not on site; confirm on call",
+    "sahajanand.ltd": "five plants plus group companies; headcount may exceed 200, confirm on call",
+    "ankitshiny.com": "part of Safe's Group (Mumbai); confirm local decision-maker",
     "minalspecialities.com": "Office-only HQ: plant at Saykha, Vagra (Bharuch); meet at the Ambli-Bopal office",
     "skumarindia.com": "also a Zonten machine distributor; confirm printing plant size on call",
     "watermanpump.com": "site says 250+ staff (about page says 500+ globally); above the 200 band",
