@@ -26,6 +26,7 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "mkplastic.in": "no address, phone or email on site; cannot verify plant or reach them",
     "atigo.in": "no plant stated; Ahmedabad office and UK office only",
     "aragonpeb.com": "factory is at Bhavpar (Sabarkantha), outside the Ahmedabad belt",
     "blutris.com": "plant is at Kadi (Mehsana), outside the Ahmedabad belt",
@@ -49,6 +50,8 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "bomafa-india.com": "JV of BOMAFA Germany; may run group ERP (SAP); plant address not on site, confirm on call",
+    "arhampetrochem.com": "main refinery is Anjar (Kutch); Santej and Kalol units are in the belt; HQ Bodakdev",
     "rameswar.com": "Site gives no Ahmedabad street address; group roots in Kolkata. Confirm the plant location first.",
     "delwishealthcare.com": "Also runs a PCD franchise model; confirm which of the 5 units are their own.",
     "gmpmachpro.com": "About page lists US factory addresses that look like template text; plant confirmed only at Changodar.",
