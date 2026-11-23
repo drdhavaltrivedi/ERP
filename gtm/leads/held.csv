@@ -1,7 +1,133 @@
-company,reason
-Swiss Pharma Pvt Ltd,"Site states 300+ staff, above the 200 band. Vatva. Tier C unless you want larger accounts."
-Remus Pharmaceuticals,Group revenue USD 150M (FY23) and US office; likely buys at group level. Bopal office only.
-Asahi Songwon Colors Ltd,Listed company with large board; probably above band and on an established ERP. Verify before adding.
-HCP Plastene Bulkpack Ltd,"Listed, part of Plastene group with 8 plants; above band. Hold."
-Skycare Pharmaceuticals / Aash Biotech / Stivaph / Veer Plastics,Website not readable; research via other sources later.
-Jay Pumps / Kevin Process Technologies / La Gajjar (Varuna Pumps),Websites unreadable; Varuna likely above band. Research via browser.
+company,reason,website
+Swiss Pharma Pvt Ltd,"Site states 300+ staff, above the 200 band. Vatva. Tier C unless you want larger accounts.",
+Remus Pharmaceuticals,Group revenue USD 150M (FY23) and US office; likely buys at group level. Bopal office only.,
+Asahi Songwon Colors Ltd,Listed company with large board; probably above band and on an established ERP. Verify before adding.,
+HCP Plastene Bulkpack Ltd,"Listed, part of Plastene group with 8 plants; above band. Hold.",
+Skycare Pharmaceuticals / Aash Biotech / Stivaph / Veer Plastics,Website not readable; research via other sources later.,
+Jay Pumps / Kevin Process Technologies / La Gajjar (Varuna Pumps),Websites unreadable; Varuna likely above band. Research via browser.,
+antilalife.com,site unreachable (client error on fetch),http://www.antilalife.com
+virgouap.com,"bot-verification page, no content",http://www.virgouap.com
+Nest Healthcare Private Limited,"site claims 2184+ professional experts (likely staff, over 500)",http://www.nest-india.com
+roselabsindia.com,site unreachable (robots.txt could not be read),http://www.roselabsindia.com
+Brillare Science Ltd.,"no own manufacturing plant shown; D2C personal care brand, office only",http://www.brillare.co.in
+corelpharmachem.com,"site under maintenance, no plant info",http://www.corelpharmachem.com
+indianconstructionchemicals.in,site unreachable (robots.txt could not be read; not fetched),http://www.indianconstructionchemicals.in
+Emcer Tiles Pvt. Ltd.,no Ahmedabad plant seen; site keyword says Morbi,http://www.emcer.in
+pitticastings.com,site unreachable (robots.txt could not be read; not fetched),http://www.pitticastings.com
+Aegios,"homepage returned template placeholders only, no readable content",http://www.aegios.com
+Remik Trading Company Private Limited,chemicals trader; plant sites not stated,http://www.remik.com
+Aerocraft Engineering (India) Pvt. Ltd.,"BIM and design services for US clients, not manufacturer",http://www.aerocraftengineering.com
+expertpharmaceuticals.com,"site unreachable (bot-check page only, no content)",http://www.expertpharmaceuticals.com
+sunheart.in,site unreachable (empty page returned),http://www.sunheart.in
+vihanindia.com,"site unreachable (robots.txt could not be read; permanent, do not retry)",http://www.vihanindia.com
+futuristic.net.in,"site unreachable (robots.txt could not be read; permanent, do not retry)",http://www.futuristic.net.in
+Asia Bulk Sacks Pvt. Ltd.,"plant at Kadi (Mehsana dist, pin 382715), outside Ahmedabad belt",http://www.asiabulksacks.com
+jarunpharma.com,site unreachable (robots.txt unreadable; retry would fail the same way),http://www.jarunpharma.com
+axiobio.com,no readable content (tracking stub only),http://www.axiobio.com
+ApiSyn Healthcare Pvt. Ltd.,350+ scientists stated; total headcount likely over 500,http://www.apisyn.com
+shelter.co.in,"site unreachable (bot-check page only, no content)",http://www.shelter.co.in
+cubitlifescience.com,site unreachable (robots.txt unreadable; retry would fail the same way),http://www.cubitlifescience.com
+reliancepharma.com,no Ahmedabad plant or office found on homepage,http://www.reliancepharma.com
+Hindustan Concrete Solution India Pvt. Ltd.,"site claims 500+ staff (borderline, not verified)",http://www.hindustanrmc.com
+magmagroup.in,"not a manufacturer (procurement, logistics and waste-recovery services group)",http://www.magmagroup.in
+kgflexx.com,"site unreachable (robots.txt could not be read, permanent)",http://www.kgflexx.com
+dkengineering.co,"site unreachable (robots.txt could not be read, permanent)",http://www.dkengineering.co
+shukrapharmaceuticals.com,"site redirects to shukramedtechltd.com (302, redirect not followed)",http://www.shukrapharmaceuticals.com
+cengrestiles.com,no Ahmedabad plant or address found on site,http://www.cengrestiles.com
+sumip.com,no Ahmedabad plant or address found on site,http://www.sumip.com
+paraspharma.org,head office Mumbai (Sion); no Ahmedabad plant on site,http://www.paraspharma.org
+damsongroup.com,site unreachable,http://www.damsongroup.com
+kashmikformulation.com,site unreachable,http://www.kashmikformulation.com
+edkempharma.in,site unreachable,http://www.edkempharma.in
+Synergia Sciences,"Ahmedabad is office only; plant at Indrad, Kadi (Mehsana dist)",http://www.synergiasciences.com
+SPAN Inspection Systems Pvt. Ltd.,machine-vision maker; own plant not stated,http://www.spansystems.in
+Suntec Energy Systems,Riello sole distributor; own plant not stated,http://www.suntecenergy.in
+hcpwellness.in,site unreachable,http://www.hcpwellness.in
+Novasol Ingredients Pvt. Ltd.,"distributor/supplier, no own plant stated",http://www.novasolingredients.com
+keclsolvents.com,site unreachable,http://www.keclsolvents.com
+atvanticfinechem.com,site unreachable,http://www.atvanticfinechem.com
+artichemical.com,site unreachable,http://www.artichemical.com
+arcoy.com,site unreachable,http://www.arcoy.com
+Elspec Engineering Ltd.,no Ahmedabad plant or office on site; power quality analyser maker,http://www.elspec-ltd.com
+Parixit,no Ahmedabad plant or manufacturing info found on site,http://www.parixit.com
+Rajlaxmi Endeavour,"trader and repair service, no own manufacturing plant seen",http://www.hydraulicspareparts.com
+shreerajindia.com,site unreachable,http://www.shreerajindia.com
+mymixgroup.com,"site unreachable (fetch returned a bot-verification page, no site content)",http://www.mymixgroup.com
+Baheti Recycling Industries Limited,"plant at Dehgam (Gandhinagar dist), outside listed Ahmedabad belt; head office address not found on pages read",http://www.bahetiindustries.com
+pintola.in,"online D2C brand, no own plant or Ahmedabad plant stated",http://www.pintola.in
+aicofoods.com,"site unreachable (robots.txt could not be read, page not fetched)",http://www.aicofoods.com
+United Foods India Private Limited,"factory in Talaja (Bhavnagar dist), outside listed Ahmedabad belt; HQ address not in page text",http://www.unitedfoodsindia.com
+Image Gravures,no Ahmedabad plant or office address on site,http://www.imagegravures.com
+packem-umasree.com,"site unreachable (bot-verification page, no content)",http://www.packem-umasree.com
+Casa Cans Private Limited,no Ahmedabad address on site; homepage has meta tags only,http://www.casacans.com
+M&B Engineering Ltd,EPC/installer; 700+ employees,http://www.mbproflex.com
+uniquetags.com,"site unreachable (bot-verification page, no content)",http://www.uniquetags.com
+crownlam.com,no address or company info on site,http://www.crownlam.com
+chromenisteels.com,site unreachable (robots.txt could not be read; not retried),http://www.chromenisteels.com
+German Green Steel and Power Ltd (formerly Haq Steels & Metaliks Ltd); German TMT Pvt Ltd,workforce 1300+ stated on site (over 500),http://www.germansteel.in
+colourflex.com,"site unreachable (only a 'request is being verified' interstitial returned, no content)",http://www.colourflex.com
+neoplast.com,"site unreachable (homepage returned an empty shell, no page content)",http://www.neoplast.com
+Oswal Extrusion Ltd (Champalal Group),no Ahmedabad plant found; Varsana unit in Kutch,http://www.oswalextrusion.com
+ravirajfoils.com,site unreachable (robots.txt could not be read; not retried),http://www.ravirajfoils.com
+Shubham Aqua Vitro Pvt. Ltd.,"turnkey water-treatment EPC-style installer; no own plant shown, Ahmedabad office only",http://www.shubhamindia.com
+Glide Technology Pvt. Ltd.,"design and engineering services, not a manufacturer with own plant",http://www.glidemtech.com
+Bhavya Machine Tools LLP,machine-tool distributor and showroom; no own plant shown,http://www.bhavyamachinetools.com
+DCG Cables & Wires Industries Pvt. Ltd.,500+ employees stated on site,http://www.dcgcableswiresltd.com
+kcplauto.com,"site unreachable (returned a bot-verification loader page, no content)",http://www.kcplauto.com
+lancerlaser.com,site unreachable,http://www.lancerlaser.com
+Orient Enterprise Gujarat Private Limited,"trader/distributor, not a manufacturer",http://www.oriententerprise.com
+Mefron Technologies India Pvt Ltd,over 500 employees (1200+ stated),http://www.mefron.com
+Nutron Systems Pvt. Ltd.,automation integrator; no own plant stated,http://www.nutronsystems.com
+themisautomation.com,site unreachable,http://www.themisautomation.com
+Doshion Environment Water Solutions,"water treatment EPC and services, not a product maker",http://www.dews.co.in
+Velox Automation Pvt. Ltd.,plant in Surat; Ahmedabad is sales office only,http://www.veloxautomation.com
+sunmarkstainless.com,"site unreachable (returned a verification loader page, no content)",http://www.sunmarkstainless.com
+hifab.in,"site unreachable (robots.txt could not be read, 2 attempts)",http://www.hifab.in
+Inner Engineering Products & Systems Pvt. Ltd.,no own plant found on site; Ahmedabad HQ office only,http://www.innerengineering.co.in
+tirexchargers.com,no plant found; SG Highway Ahmedabad office only,http://www.tirexchargers.com
+Kanoda Energy Systems Pvt. Ltd.,"solar rooftop EPC and installer, not a manufacturer",http://www.kanoda.com
+delfengineersindia.com,"civil/structural engineering consultant, not a manufacturer",http://www.delfengineersindia.com
+NOT DRONES INNOVATIONS PRIVATE LIMITED,no own plant shown; consumer drone brand selling online,http://www.electrobotic.in
+Éclat Engineering Pvt. Ltd.,"software/SaaS for libraries, not manufacturing",http://www.eclateng.com
+expresslift.co.in,site unreachable,http://www.expresslift.co.in
+yugdecor.com,site unreachable,http://www.yugdecor.com
+marudhar.in,site unreachable,http://www.marudhar.in
+artexapparels.com,no Ahmedabad address on site,http://www.artexapparels.com
+Texel Industries Limited,reg office Kheda; no Ahmedabad plant found,http://www.geotexelin.com
+Raghuvir Exim Limited,"listed, several large units; likely over 500 staff",http://www.raghuvirexim.com
+qchem.in,set up in 2024; team size unclear (site counter shows 1+). Revisit in 2027,http://www.qchem.in
+Everest Starch India Pvt Ltd,plant in Surendranagar; Ahmedabad is sales office only,http://www.evereststarch.com
+Fornnax Technology Pvt Ltd,own plant location not stated; Ahmedabad head/sales office,http://www.fornnax.com
+geo-fresh.com,"Sidhpur (Patan dist), not Ahmedabad belt; organic sourcing/processing",http://www.geo-fresh.com
+srithaisuperware.in,site unreachable,http://www.srithaisuperware.in
+Sterling Abrasives Limited,"plant at Galesara, Sabarkantha (outside Ahmedabad belt)",http://www.sterlingabrasives.com
+trivedigroup.com,site unreachable,http://www.trivedigroup.com
+G.M. Tea Packers Pvt. Ltd.,tea packer; no plant address on homepage,http://www.tulsitea.in
+UNIQUE ENGINEERS,"EPC/turnkey contractor, not manufacturer; HQ Mumbai, works Bhiwandi",http://www.uniqueengineers.com
+uteshiyamedicare.com,site unreachable,http://www.uteshiyamedicare.com
+vedantengg.com,site unreachable,http://www.vedantengg.com
+vrajbhoomi.in,apparel/textile D2C brand; no plant shown,http://www.vrajbhoomi.in
+aarkayfoods.in,site unreachable,http://www.aarkayfoods.in
+veerplastics.com,site unreachable,http://www.veerplastics.com
+kevision.in,"site unreachable (bot-check page, no content)",http://www.kevision.in
+kishanenterprise.in,no plant address on site,http://www.kishanenterprise.in
+marutiprofilecutting.com,"site unreachable (robots.txt could not be read, ROBOTS_UNREACHABLE, permanent)",http://www.marutiprofilecutting.com
+newlifemedicals.com,"site unreachable (bot-check page, no content)",http://www.newlifemedicals.com
+Optimized Electrotech Pvt Ltd,no Ahmedabad address on site,http://www.optimizedelectrotech.com
+shreejicorpindia.com,"site unreachable (bot-check page, no content)",http://www.shreejicorpindia.com
+ramdevfood.com,site unreachable,http://www.ramdevfood.com
+flavaroma.info,site unreachable,http://www.flavaroma.info
+raajventures.com,site unreachable,http://www.raajventures.com
+HCP Plastene Bulkpack Limited,part of the Plastene group with 8 plants; likely over 500 staff,http://www.hpbl.in
+label-s4u.com,"online ethnic wear retailer, not a manufacturer on site",http://www.label-s4u.com
+fitandflexgranola.com,site unreachable,http://www.fitandflexgranola.com
+GoodFarms,no Ahmedabad or India presence on homepage,http://www.goodfarms.com
+adishwaram.com,site unreachable (robots.txt could not be read),http://www.adishwaram.com
+Bloom Dekor Limited,site links an insolvency (CIRP) page; check status before any outreach,http://www.bloomdekor.com
+clearpani.com,no plant or Ahmedabad address found; homepage shows only meta tags,http://www.clearpani.com
+coppergeometry.com,site unreachable (returned bot verification page only),http://www.coppergeometry.com
+Digicon Automation Pvt Ltd,mainly Danfoss/Phoenix dealer and automation integrator; panel plant not confirmed,http://www.digicon.in
+excelengineers.co.in,site unreachable (homepage returned empty page),http://www.excelengineers.co.in
+GNF International,"HR consulting and recruitment firm, not a manufacturer",http://www.gnfinternational.com
+Harikrishna Enterprise,fastener dealer/wholesaler; own manufacturing unit not confirmed on site,http://www.harikrishnaenterprise.com
+jalaramenterprise.in,site unreachable (robots.txt could not be read),http://www.jalaramenterprise.in

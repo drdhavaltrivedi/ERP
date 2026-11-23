@@ -19,7 +19,36 @@ if os.path.exists(_faq):
 
 seed = {}
 exec(open(os.path.join(HERE, "research_seed.py")).read(), seed)
-A, HOLD = seed["A"], seed["HOLD"]
+A, HOLD = seed["A"], [tuple(x) for x in seed["HOLD"]]
+from v2_27 import V as V27
+from research_rules import NAMES, HOLD_OVERRIDE, NOTES, RANK
+
+# Web research (one JSON record per company), merged into A (qualified) or HOLD (not a fit)
+RES = os.path.join(GTM, "research", "ahmedabad-web-research.jsonl")
+V2, PENDING = {}, []
+known_sites = {a["website"].lower().replace("https://","").replace("http://","").replace("www.","").strip("/") for a in A}
+if os.path.exists(RES):
+    import json
+    for line in open(RES, encoding="utf-8"):
+        r = json.loads(line); d = r["d"].replace("http://","").replace("https://","").replace("www.","").strip("/")
+        if d in known_sites: continue
+        v = r.get("v") or ""
+        if not v or "budget" in v: PENDING.append(d); continue
+        if d in HOLD_OVERRIDE: v = "H:" + HOLD_OVERRIDE[d]
+        name = NAMES.get(d) or r.get("n") or d
+        name = re.sub(r"\s*\((legal suffix|per |trading).*?\)", "", name).strip()
+        if v != "Q":
+            HOLD.append((name, v[2:].strip(), "http://www." + d)); continue
+        ml = r.get("ml"); ml = ml is True or str(ml).lower() == "true"
+        A.append(dict(company=name, industry=r.get("ind") or "Other", sub=r.get("sub",""), hc=r.get("hc",""),
+            address=r.get("addr",""), cluster=(r.get("cl") or r.get("visit","")).split(";")[0].strip(), website="http://www." + d,
+            phone=r.get("ph",""), email_generic=r.get("em",""), dm=r.get("dm") or "Not named on site", signal=r.get("sig",""),
+            multi_loc=ml, rank=RANK.get(r.get("ind"), 5), src=r.get("src",""), li="", lang_code=r.get("lang") or "gu",
+            note=NOTES.get(d, "")))
+        V2[name] = r
+    with open(os.path.join(GTM, "research", "pending.txt"), "w") as f:
+        f.write("# Not researched yet (web-fetch limit). Re-run research on these.\n" + "\n".join(PENDING) + "\n")
+for c, x in V27.items(): V2[c] = x
 
 COLS = ["account_id","company","industry","sub_segment","headcount","address","cluster","website","phone_board","email_generic",
         "decision_makers","linkedin_main","work_email","email_verification","pain_signal","signal_source","fit_score","tier",
@@ -33,11 +62,13 @@ def score(a):
     s += 15 if a["multi_loc"] else 0
     t = a["signal"].lower()
     kinds = [("hiring",), ("new plant","commissioned","planned","launched","acquired","acquisition"),
-             ("subsidiar","sister company","group","offices"), ("listed",), ("export",)]
+             ("subsidiar","sister company","group","offices","branch"), ("expansion","added","new unit","unit ii","unit 2"), ("listed",), ("export",)]
     s += min(30, 10 * sum(1 for ks in kinds if any(k in t for k in ks)))
     s += 0 if a["dm"].lower().startswith("not ") else 10
     s += 10 if a["phone"] and not a["phone"].startswith("(") else 0
     return min(s, 100)
+
+LANG = {"gu": "Gujarati", "hi": "Hindi first (switch to Gujarati if they reply in it)", "en": "English first (switch to Hindi or Gujarati as they reply)"}
 
 def tier(s): return "A" if s >= 70 else ("B" if s >= 50 else "C")
 
@@ -77,9 +108,9 @@ for a in ranked:
     rows.append(dict(account_id=aid, company=a["company"], industry=a["industry"], sub_segment=a["sub"], headcount=a["hc"],
         address=a["address"], cluster=a["cluster"], website=a["website"], phone_board=a["phone"], email_generic=a["email_generic"],
         decision_makers=a["dm"], linkedin_main=a.get("li",""), work_email="", email_verification="", pain_signal=a["signal"],
-        signal_source=a["src"], fit_score=s, tier=tier(s), odoo_vs_erpnext=fit(a), call_language=h.get("lang","Gujarati"),
+        signal_source=a["src"], fit_score=s, tier=tier(s), odoo_vs_erpnext=fit(a), call_language=h.get("lang") or LANG.get(a.get("lang_code","gu"), "Gujarati"),
         owner="", status="Researched", last_activity="", next_step=(f"Call board line, ask for {dm}" if dm else "Find owner name (MCA / Google Maps), then call"),
-        next_step_date="", notes=("Do not contact Manish Patel: company site lists him as late." if "Mediwin" in a["company"] else "")))
+        next_step_date="", notes=("Do not contact Manish Patel: company site lists him as late." if "Mediwin" in a["company"] else a.get("note",""))))
 for c, r in existing.items():
     if c not in {a["company"] for a in A}: rows.append(r)
 rows.sort(key=lambda r: r["account_id"])
@@ -112,171 +143,11 @@ with open(path, "w", newline="", encoding="utf-8") as f:
     w = csv.DictWriter(f, fieldnames=COLS); w.writeheader()
     for r in rows: w.writerow({k: r.get(k, "") for k in COLS})
 with open(os.path.join(GTM, "leads", "held.csv"), "w", newline="", encoding="utf-8") as f:
-    w = csv.writer(f); w.writerow(["company","reason"]); w.writerows(HOLD)
+    w = csv.writer(f); w.writerow(["company","reason","website"]); w.writerows([list(x) + [""] * (3 - len(x)) for x in HOLD])
 
-# ---------- 3. per-account personalised scripts ----------
-Q = {
- "Pharma": ["How do you track batch and expiry across plants today: Tally, Excel or a separate tool?",
-            "When an auditor or a foreign regulator asks for a batch's full history, how long does it take to pull?",
-            "How do you handle near-expiry stock and returns from export markets?"],
- "Chemicals": ["How do you cost a batch today, including yield loss and by-products?",
-               "How do you move stock between plants or to job workers, and how often do the numbers not match?",
-               "How much of your export paperwork (invoices, packing lists, COAs) is made by hand?"],
- "Engineering": ["How does an enquiry become a quote, a BOM and a work order today?",
-                 "Do you know the actual cost of each job after it ships, or only the estimate?",
-                 "How do you track spares, service visits and installed units at customer sites?"],
-}
-def qs(ind):
-    for k in Q:
-        if ind.startswith(k) or k in ind: return Q[k]
-    return Q["Engineering"]
-
-used_subjects = set()
-def subject(a, h):
-    base = {"Pharma":"batch records","Chemicals":"plant-wise costing","Engineering":"job costing"}
-    key = next((k for k in base if k in a["industry"]), "Engineering")
-    s = f"{a['company'].split()[0].lower()} {base[key]}"
-    i = 2
-    while s in used_subjects: s = f"{s} {i}"; i += 1
-    used_subjects.add(s); return s
-
-for a in ranked:
-    r = next(x for x in rows if x["company"] == a["company"])
-    h = H.get(a["company"], dict(lang="Gujarati", en="", gu="", pain=""))
-    dm = first_dm(a) or "the owner or managing director"
-    _n = [w for w in dm.split() if w.rstrip('.') not in ("Dr","Mr","Mrs","Ms","Miss")]
-    dm_first = _n[0] if dm != "the owner or managing director" and _n else ""
-    q = qs(a["industry"])
-    hi_line = h.get("hi")
-    md = f"""# {r['account_id']} · {a['company']}
-
-| | |
-|---|---|
-| Industry | {a['industry']}: {a['sub']} |
-| Ask for | {dm} |
-| Other contacts | {a['dm']} |
-| Board phone | {a['phone']} |
-| Address / cluster | {a['address']} ({a['cluster']}) |
-| Website | {a['website']} |
-| LinkedIn | {a.get('li') or 'not found yet'} |
-| Fit | Score {r['fit_score']}, Tier {r['tier']}. {r['odoo_vs_erpnext']} |
-| Call language | {h['lang']} |
-| Hook (verified) | {h['en']}. Source: {a['src']} |
-| Pain to probe | {h['pain']} |
-{"| Caution | " + r['notes'] + " |" if r['notes'] else ""}
-
-Before calling: check the person's current role on LinkedIn or the company site. Log every attempt in `gtm/logs/calls.csv`.
-
-## 1. Call opener (30 seconds)
-
-**Gujarati**
-
-> નમસ્તે, હું [તમારું નામ] બોલું છું, [કંપનીનું નામ] માંથી. શું હું {(dm_first + 'જી') if dm_first else 'MD'} સાથે વાત કરી શકું?
->
-> (DM મળે ત્યારે) {dm_first + 'જી' if dm_first else 'નમસ્તે'}, બે મિનિટ લઈશ. અમે Ahmedabad ની manufacturing કંપનીઓ માટે Odoo અને ERPNext implement કરીએ છીએ. મેં જોયું કે {h['gu']}. આવા setup માં stock, costing અને હિસાબ એક સાથે Tally અને Excel માં સંભાળવું ઘણી વાર મુશ્કેલ બને છે. તમારે ત્યાં અત્યારે આ કેવી રીતે ચાલે છે?
-"""
-    if hi_line:
-        md += f"""
-**Hindi**
-
-> नमस्ते, मैं [आपका नाम] बोल रहा/रही हूँ, [कंपनी का नाम] से। क्या {(dm_first + 'जी') if dm_first else 'MD'} से बात हो सकती है?
->
-> (DM मिलने पर) दो मिनट लूँगा। हम Ahmedabad की manufacturing कंपनियों के लिए Odoo और ERPNext implement करते हैं। मैंने देखा कि {hi_line}। ऐसे setup में stock, costing और हिसाब एक साथ Tally और Excel में संभालना अक्सर मुश्किल हो जाता है। आपके यहाँ अभी यह कैसे चलता है?
-"""
-    md += f"""
-**English**
-
-> Hi, this is [your name] from [company]. Could I speak with {dm}?
->
-> (Once connected) I'll take two minutes. We implement Odoo and ERPNext for manufacturers in Ahmedabad. I saw that {h['en']}. In a setup like that, keeping track of {h['pain'].split(',')[0][0].lower() + h['pain'].split(',')[0][1:]} in Tally and Excel usually gets hard. How are you handling it today?
-
-**Goal of the call:** a 30-minute visit at {a['cluster']}, not a demo over the phone.
-
-> Close: "Can I come by your office for 30 minutes next week? I'll bring a short walkthrough of how a similar plant runs stock, production and accounts in one system."
-
-## 2. Discovery questions
-
-1. {q[0]}
-2. {q[1]}
-3. {q[2]}
-4. Who besides you would be involved in choosing a system: your CA, accounts head, plant head?
-5. Is there a date that matters, like 1 April, a new plant, or an audit?
-
-## 3. What to show them (their version of the value)
-
-{{talk_md}}
-
-Lead with the first point. It is the one tied to their hook.
-
-## 4. Questions they will probably ask
-
-{{asks_md}}
-
-Full answers are in `scripts/01-buyer-faq.md`. Fill the [fill] items there before calling.
-
-## 5. Likely objections
-
-- "Tally is enough." Agree it's good for accounts. Ask about {h['pain'].split(',')[0][0].lower() + h['pain'].split(',')[0][1:]}, which is where Tally runs out.
-- "Too expensive." Phase 1 (inventory, purchase, sales, accounts, GST) starts from ₹2 lakh. {"ERPNext has no per-user licence if budget is tight." if "ERPNext" in r['odoo_vs_erpnext'] or "Either" in r['odoo_vs_erpnext'] else "Offer a fixed-scope phase 1 so cost is known up front."}
-- "We already use Tranzact / a Tally add-on." Ask what still lives in Excel or WhatsApp.
-- "Who else uses it?" Mention a building-materials manufacturer in MP where you built the ERP (never name the client), and offer reference-deal terms.
-
-## 6. Email draft (not sent; send only after approval)
-
-**Subject:** {subject(a, h)}
-
-{('Hi ' + dm_first + ',') if dm_first else 'Hello,'}
-
-I noticed {h['en']}.
-
-When a manufacturer grows like that, the work behind {h['pain'][0].lower() + h['pain'][1:]} tends to end up split across Tally, Excel and WhatsApp, and the owner sees the real numbers weeks late.
-
-We implement Odoo and ERPNext for manufacturers in Ahmedabad, starting with a fixed-scope first phase.
-
-How are you handling {h['pain'].split(',')[0][0].lower() + h['pain'].split(',')[0][1:]} today?
-
-[Your name]
-[Title], [Company] | Odoo and ERPNext partner
-[Phone]
-
-If this isn't relevant, just reply "no thanks" and I won't follow up.
-[Postal address]
-
-**Follow-up, day 4 (same thread):** One thing we see often in {a['industry'].split(' ')[0].lower().replace('chemicals','chemical').replace('engineering','engineering')} plants: the first quick win is getting stock and batch movements into one place, before touching production planning. Happy to share what that would look like for {a['company'].split(' (')[0]} if useful.
-
-**Follow-up, day 10 (same thread):** I'll leave this here. If it helps, I can send a one-page sketch of how your stock, production and accounts would sit in one system. No call needed, just reply "send it".
-
-## 7. After the call: WhatsApp and LinkedIn (send only after approval)
-
-**WhatsApp, same day (Gujarati):**
-
-> {dm_first + 'જી' if dm_first else 'નમસ્તે'}, આજે વાત કરવા બદલ આભાર. [તમારું નામ], [કંપનીનું નામ]. આપણે ચર્ચા કરી તેમ, stock, costing અને હિસાબ એક જ system માં કેવી રીતે ચાલે તેનું ટૂંકું overview મોકલું છું. [visit date] એ મળવાનું ફાવશે?
-
-**WhatsApp, same day (English):**
-
-> Thanks for your time today, {dm_first or 'sir/madam'}. This is [your name] from [company]. As discussed, I'll share a short note on {{short_talk_en}}. Would [visit date] work for a 30-minute visit?
-
-**LinkedIn connection note (under 300 characters):**
-
-> {{li_note}}
-
-## 8. Visit checklist
-
-- Bring: one-page Odoo/ERPNext overview, the MP building-materials case (anonymised), a phase 1 price range.
-- Ask to see: the stock register, a costing sheet, and how a purchase order is approved.
-- Leave with: the main pain in their words, who else decides, and a date for a demo or a proposal.
-"""
-    pp = P.get(a["company"], dict(talk=[], asks=[]))
-    talk_md = "\n".join(f"{i}. {t}" for i, t in enumerate(pp["talk"], 1)) or "1. Stock, purchase, sales and accounts in one system"
-    asks_md = "\n".join(f"- **{FAQ[n][0]}** {FAQ[n][1]}" for n in pp["asks"] if n in FAQ) or "- See the FAQ."
-    first_talk = (pp["talk"][0] if pp["talk"] else "stock and accounts in one system")
-    li_note = f"Hi {dm_first or 'there'}, I saw that {h['en']}. We implement Odoo and ERPNext for manufacturers in Ahmedabad and I'd like to connect."
-    if len(li_note) > 295: li_note = f"Hi {dm_first or 'there'}, we implement Odoo and ERPNext for Ahmedabad manufacturers. I saw {a['company'].split(' (')[0]}'s recent growth and would like to connect."
-    md = md.replace("{talk_md}", talk_md).replace("{asks_md}", asks_md).replace("{li_note}", li_note)
-    md = md.replace("{short_talk_en}", first_talk[0].lower() + first_talk[1:]).replace("{short_talk_gu}", "stock, costing અને હિસાબ એક system માં")
-    md = md.replace("\n\n\n", "\n\n")
-    with open(os.path.join(GTM, "scripts", "accounts", f"{r['account_id']}-{slug(a['company'])}.md"), "w", encoding="utf-8") as f:
-        f.write(md)
+# ---------- 3. per-account personalised scripts (v2 conversational format) ----------
+from script_v2 import write_scripts
+write_scripts(ranked, rows, H, P, V2, FAQ, os.path.join(GTM, "scripts", "accounts"), first_dm, slug)
 
 # ---------- 4. Excel view ----------
 try:
@@ -292,7 +163,7 @@ try:
     for fn, hdr in LOGS.items():
         s = wb.create_sheet(fn.replace(".csv","").replace("_"," ").title()); s.append(hdr)
         for r in logs[fn]: s.append([r.get(k,"") for k in hdr])
-    h2 = wb.create_sheet("Held"); h2.append(["company","reason"])
+    h2 = wb.create_sheet("Held"); h2.append(["company","reason","website"])
     for x in HOLD: h2.append(list(x))
     summ = wb.create_sheet("Summary", 0)
     summ.append(["Metric","Value"])

@@ -14,8 +14,10 @@ This repo holds the go-to-market work for selling Odoo and ERPNext implementatio
 | `gtm/logs/*.csv` | Activity logs: calls, visits, emails, LinkedIn and WhatsApp |
 | `gtm/scripts/00-call-playbook.md` | Language guide, call flow, objection answers, logging rules |
 | `gtm/scripts/01-buyer-faq.md` | 31 questions prospects will ask, with answers (top 10 also in Gujarati) |
-| `gtm/scripts/accounts/AMD-xxx-*.md` | One personalised script per account: hook, call opener in Gujarati/Hindi/English, what to show them, questions they will ask, objections, email draft with follow-ups, WhatsApp and LinkedIn notes, visit checklist |
-| `gtm/tools/` | `research_seed.py` (research data), `hooks.py` (personalisation), `build.py` (rebuilds the tracker view and scripts) |
+| `gtm/scripts/accounts/AMD-xxx-*.md` | One conversational call script per account (v2): receptionist line, permission opener, who we are, what we saw on their site, five easy questions, reflect the pain, one line of value, visit ask, pushback table; Gujarati and English lines; likely FAQ; email draft with follow-ups; WhatsApp; visit checklist |
+| `gtm/research/ahmedabad-web-research.jsonl` | Website research for every candidate (qualified or not, with the reason) |
+| `gtm/research/pending.txt` | Candidates not researched yet |
+| `gtm/tools/` | `research_seed.py` and `hooks.py` (first 27 accounts), `v2_27.py` (their conversational lines), `research_rules.py` (review decisions on the web research), `script_v2.py` (script template), `build.py` (rebuilds tracker, held list and scripts) |
 
 ## Daily routine
 
