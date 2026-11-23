@@ -26,6 +26,7 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "anilenterprise.in": "proprietor pattern shop with 2 VMCs and personal email ids; scale implies well under 50 staff",
     "namisteel.com": "site states 250+ professionals and 75,000 MTPA, over the 200 band",
     "bajajtiles.com": "three plants at 75,000 sq m/day plus five group companies; likely well above 200 staff",
     "ultradenim.in": "capacity of 1.8M m fabric and 100k garments a month suggests well over 200 staff",
@@ -69,6 +70,14 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "estrellaslifesciences.com": "processing unit address not given and yahoo email; confirm they own the plant",
+    "aptekinstrumentation.com": "site states 50-100 staff; gmail contact",
+    "umiyagroup.com": "two units in Vahelal plus Naroda HO; 350+ dealers",
+    "sunriseindustries.co.in": "small estate unit, no headcount; confirm it is over 50 staff",
+    "shreelaxmiinds.com": "no headcount stated; confirm it is over 50 staff",
+    "sunind.in": "no headcount stated; confirm it is over 50 staff",
+    "ambicaelectricals.com": "niche product line, no headcount; confirm it is over 50 staff",
+    "varahiinternational.com": "proprietorship; confirm headcount",
     "shreeganeshmasala.com": "already runs a dealer ERP portal (erp.shreeganeshmasala.com); pitch replacement or extension, not a first ERP; 3 units may exceed 200 staff",
     "kp-group.in": "plant is in Dahej GIDC (Bharuch), office in Satellite; group of 3 firms",
     "perfecttoolsindustries.com": "12 branch offices and 250+ distributors; confirm headcount",
