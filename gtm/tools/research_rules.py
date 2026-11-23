@@ -69,6 +69,17 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "shreeganeshmasala.com": "already runs a dealer ERP portal (erp.shreeganeshmasala.com); pitch replacement or extension, not a first ERP; 3 units may exceed 200 staff",
+    "kp-group.in": "plant is in Dahej GIDC (Bharuch), office in Satellite; group of 3 firms",
+    "perfecttoolsindustries.com": "12 branch offices and 250+ distributors; confirm headcount",
+    "vbchyd.com": "gmail contact and no headcount; confirm it is over 50 staff",
+    "bajajgroups.com": "3 group firms, 50+ export countries, 13,000 stores; may be over 200 staff, confirm first",
+    "jayhindfoundry.com": "1500 MT a month capacity; may be over 200 staff, confirm first",
+    "stickerlabelingmachines.co.in": "100,000 sq ft site claimed; confirm headcount",
+    "technocnc.in": "15 openings on careers page, a hiring signal",
+    "vkgroup.info": "plant is in Saykha GIDC (Bharuch), head office in Nikol; 5 group firms",
+    "manisheng.in": "yahoo contact email and no headcount; confirm it is over 50 staff",
+    "smengimech.com": "claims 1000+ dairy plants delivered; confirm headcount",
     "wellboreengineering.com": "leader name on site looks like placeholder text; ignore it and ask for the owner",
     "runwell.org": "site states 200 employees, top of the band",
     "shrinathproducts.com": "site states 100+ staff; trades as a division of Elmer Products",
