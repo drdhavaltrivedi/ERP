@@ -68,6 +68,14 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "heliosconcrew.com": "listed in the 101-500 band; confirm it is under 200",
+    "shreekrishnaind.com": "site cites a 5000 sq ft facility, may be under 50 staff; confirm headcount early",
+    "alaskapuf.com": "14000 sq ft unit; confirm headcount",
+    "kenilhealthcare.com": "plant is in Kadi (Mehsana), office in Sola",
+    "sunijpharma.com": "pharma and food plants plus a US office; confirm headcount",
+    "premiumpulverisers.com": "group of 3-4 units with offices in 6 cities; confirm headcount of the Vatva unit",
+    "gokuloverseas.com": "part of a 6-company group incl. a university; confirm the castor unit alone is 50-200 staff",
+    "ptfemanufacturer.com": "small office address in Paldi; confirm headcount and where the two plants are",
     "madhurajgases.com": "CEO name on site looks like placeholder text; ignore it and ask for the owner",
     "mahickra.com": "four units and investor pages, likely listed; confirm headcount",
     "transparesindia.com": "12,000 MT a year capacity; confirm headcount",
