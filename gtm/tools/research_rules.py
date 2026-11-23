@@ -76,6 +76,10 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "ratnarajfoods.in": "Chaloda (Dholka) plant is in Ahmedabad district; several family contacts listed, Deep Shah uses the md@ address",
+    "divinetubes.com": "family group with non-manufacturing businesses; 8000+ MT/yr capacity, confirm headcount is within the band",
+    "apolloscreens.com": "part of the Gujarat Apollo group (listed parent) with an Australian unit; confirm whether ERP is decided at group level",
+    "kotharitechnotex.com": "generic email is on the droppin.in brand domain; no leader named, ask for the owner on the first call",
     "memphisvisioncare.com": "no leader named on site; ask for the owner on the first call",
     "rtcl.in": "no leader named on site; ask for the owner on the first call",
     "parthind.com": "no leader named on site; ask for the owner on the first call",
