@@ -26,6 +26,7 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "namisteel.com": "site states 250+ professionals and 75,000 MTPA, over the 200 band",
     "bajajtiles.com": "three plants at 75,000 sq m/day plus five group companies; likely well above 200 staff",
     "ultradenim.in": "capacity of 1.8M m fabric and 100k garments a month suggests well over 200 staff",
     "mbrflexibles.com": "qualifies on facts but call script was not generated; queued for retry",
@@ -68,6 +69,14 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "wellboreengineering.com": "leader name on site looks like placeholder text; ignore it and ask for the owner",
+    "runwell.org": "site states 200 employees, top of the band",
+    "shrinathproducts.com": "site states 100+ staff; trades as a division of Elmer Products",
+    "packaging-solutions.net": "legal name not shown on site; ask for it on the call",
+    "hitechmachines.com": "claims 15000+ machines installed; confirm headcount",
+    "maruti-group.com": "job-work shop across 3 workshops, gmail contact; confirm headcount",
+    "gayatridyesind.com": "three named firms on one site; ask which entity to quote",
+    "ferrousnonferrouscasting.com": "100 t a month foundry; confirm headcount",
     "heliosconcrew.com": "listed in the 101-500 band; confirm it is under 200",
     "shreekrishnaind.com": "site cites a 5000 sq ft facility, may be under 50 staff; confirm headcount early",
     "alaskapuf.com": "14000 sq ft unit; confirm headcount",
