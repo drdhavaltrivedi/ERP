@@ -26,6 +26,12 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "skanttr.com": "no plant address on site; verify location before outreach",
+    "raajtubes.com": "plant location not stated; only a Sindhu Bhavan Road office",
+    "earthentextures.com": "only a Thaltej office address; plant location not confirmed",
+    "gammagears.com": "no plant address on site, only an Amraiwadi office and a gmail contact",
+    "navwireless.com": "no manufacturing location stated; LiFi R&D firm with an Ahmedabad office",
+    "grmetalloys.in": "plant is at Jamnagar, outside the Ahmedabad belt",
     "mkplastic.in": "no address, phone or email on site; cannot verify plant or reach them",
     "atigo.in": "no plant stated; Ahmedabad office and UK office only",
     "aragonpeb.com": "factory is at Bhavpar (Sabarkantha), outside the Ahmedabad belt",
@@ -50,6 +56,13 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "brothersindia.com": "site says 300+ engineers; may be above the 200 band",
+    "galaxystamping.com": "main plant is Rajkot; Chhatral unit is on Kadi-Kalol Road; corporate office Thaltej",
+    "kodyconverting.com": "Kody Group; same group as Star Technocrates and Arvind Anticor, approach as one account",
+    "starconverting.com": "Kody Group flagship; same group as Kody Equipments and Arvind Anticor",
+    "arvindanticor.com": "Kody Group member; same group as Kody Equipments and Star Technocrates",
+    "vishwakarmaeng.com": "office in a Naroda business park; confirm plant size on call",
+    "hrsaluglaze.com": "listed company after a Dec 2025 IPO; may already be evaluating ERP",
     "bomafa-india.com": "JV of BOMAFA Germany; may run group ERP (SAP); plant address not on site, confirm on call",
     "arhampetrochem.com": "main refinery is Anjar (Kutch); Santej and Kalol units are in the belt; HQ Bodakdev",
     "rameswar.com": "Site gives no Ahmedabad street address; group roots in Kolkata. Confirm the plant location first.",
