@@ -108,9 +108,14 @@ patelsairtemp.com,site unreachable,http://www.patelsairtemp.com
 Shilp Gravures Limited,site claims over 500 skilled professionals,http://www.shilpgravures.com
 avantikamedexpl.com,site unreachable,http://www.avantikamedexpl.com
 mayurwovens.com,site unreachable,http://www.mayurwovens.com
+Endeavour Instrument Pvt. Ltd.,no Ahmedabad plant or office found; about and contact pages unreadable (bot-check),http://www.endeavourweigh.com
 Windson Organics Private Limited,Randheja (Gandhinagar) not in listed belt; sourcing-led,http://www.windsonindia.com
 Chiron Surgimed Pvt. Ltd.,Mansa (Gandhinagar dist) not in listed belt,http://www.chironsurgimed.com
 geo-fresh.com,"Sidhpur (Patan dist), not Ahmedabad belt; organic sourcing/processing",http://www.geo-fresh.com
+stivaph.com,site unreachable (site under maintenance page),http://www.stivaph.com
+arvindcomposites.com,site unreachable (robots.txt could not be read),http://www.arvindcomposites.com
+bostonbulkchemicals.com,"site unreachable (bot-verification page, no content)",http://www.bostonbulkchemicals.com
+kamakshisudpack.com,site unreachable (robots.txt could not be read),http://www.kamakshisudpack.com
 srithaisuperware.in,site unreachable,http://www.srithaisuperware.in
 Sterling Abrasives Limited,"plant at Galesara, Sabarkantha (outside Ahmedabad belt)",http://www.sterlingabrasives.com
 trivedigroup.com,site unreachable,http://www.trivedigroup.com
@@ -143,6 +148,10 @@ excelengineers.co.in,site unreachable (homepage returned empty page),http://www.
 GNF International,"HR consulting and recruitment firm, not a manufacturer",http://www.gnfinternational.com
 Harikrishna Enterprise,fastener dealer/wholesaler; own manufacturing unit not confirmed on site,http://www.harikrishnaenterprise.com
 jalaramenterprise.in,site unreachable (robots.txt could not be read),http://www.jalaramenterprise.in
+atulgreentech.co.in,site unreachable (robots.txt could not be read),http://www.atulgreentech.co.in
+gopalglass.com,"site unreachable (robots.txt unreadable, fetch refused)",http://www.gopalglass.com
+TRIO Elevators Co (India) Private Limited,no own plant shown; infrastructure and about pages failed (client_error),http://www.trioelevators.com
+"フタバ産業株式会社 (Futaba Industrial Co., Ltd.)","Japan-listed group, obviously over 500 staff; Gujarat unit at Hansalpur",http://www.futabasangyo.com
 navbharatseeds.com,site unreachable (verification page only),http://www.navbharatseeds.com
 Lyceum Life Sciences Pvt Ltd,"outsources manufacturing, no own plant stated",http://www.lyceumworld.com
 S.Mark Engineering (I) Pvt. Ltd.,mainly EPC/LSTK contractor; plant location not stated,http://www.smark.in
@@ -163,3 +172,4 @@ Nilkanth Steel (Nilkanth Concast Pvt Ltd is the flagship company per site),"plan
 prime-technologies.co.in,site unreachable,http://www.prime-technologies.co.in
 swastiktiles.in,site unreachable,http://www.swastiktiles.in
 tonggarden.co.in,site unreachable,http://www.tonggarden.co.in
+kevin.in,"site unreachable (only a verification interstitial returned, no content)",http://www.kevin.in

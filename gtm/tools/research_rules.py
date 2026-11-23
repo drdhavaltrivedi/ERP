@@ -35,6 +35,17 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "techflow.net": "Site says 187 on roll plus 239 contract staff; single Kathwada campus.",
+    "sltlmedical.com": "Medical division of the SLTL group; decision may sit with the group.",
+    "ohhpotato.com": "Factory at Vijapur (Mehsana); head office in Kudasan, Gandhinagar.",
+    "apollo.co.in": "Listed; main plant at Dholasan (Mehsana); office on Science City Road.",
+    "gopani.com": "Unit address not published on site; confirm plant location.",
+    "sanginitachemicals.co.in": "Listed; factory at Chhatral GIDC; office in Gandhinagar.",
+    "zymocosmetics.com": "Site says 200+ people; plant in Santej, corporate office in Sola.",
+    "plasmainduction.com": "Plant at Hajipur, Kalol (Gandhinagar dist).",
+    "vimsonderma.com": "Two plants (cosmetic and pharma) in Santej, Kalol.",
+    "amtechelectronics.com": "Site says 300+ employees; Gandhinagar factory. Confirm headcount.",
+    "shitalind.com": "New Mundra plant started 2025; head office on Motera Road.",
     "shivamdiemaking.co.in": "Single Odhav unit; headcount not stated, may be below 50. Confirm on the call.",
     "srdiecasting.in": "Gmail contact and headcount not stated; may be below 50. Confirm on the call.",
     "rishabhind.in": "Also a stockist; team names on site look like template text. Confirm headcount and own plant.",
