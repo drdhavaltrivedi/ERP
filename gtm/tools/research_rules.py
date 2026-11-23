@@ -26,6 +26,7 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "packmechgroup.com": "homepage did not render; no plant address or facts confirmed",
     "atreypharma.com": "site says 250 team members across two units; above the 200 band",
     "rksynthesis.com": "site says 250+ workforce across three plants; above the 200 band",
     "jindalhome.in": "500 employees stated, above ICP",
@@ -61,6 +62,13 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "safexelectromech.com": "factory street address not on site; confirm on call",
+    "sarianhealthcare.com": "five group divisions; confirm the Changodar address is the plant",
+    "shahfoils.com": "listed company with 75,000 MT capacity; headcount may exceed 200",
+    "pandawatertech.com": "part of a larger group; confirm local decision-maker",
+    "reciclartpl.com": "works address listed but manufacturing not stated; may assemble rather than make",
+    "patelsairflow.com": "posts annual reports, likely a listed company; check headcount",
+    "aptusautomation.in": "also an authorised distributor; confirm own-make volume",
     "ambicapolymer.com": "plant street address not on site; confirm on call",
     "4maticvalves.com": "plant street address not on site; confirm on call",
     "sahajanand.ltd": "five plants plus group companies; headcount may exceed 200, confirm on call",
