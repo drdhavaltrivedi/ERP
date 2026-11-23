@@ -26,6 +26,7 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "rototech.in": "no company name or plant street address on site",
     "anilenterprise.in": "proprietor pattern shop with 2 VMCs and personal email ids; scale implies well under 50 staff",
     "namisteel.com": "site states 250+ professionals and 75,000 MTPA, over the 200 band",
     "bajajtiles.com": "three plants at 75,000 sq m/day plus five group companies; likely well above 200 staff",
@@ -70,6 +71,14 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "rajgorcastor.com": "NSE SME listed; plant in Harij (Patan dist), registered office in Bodakdev; 450 MT/day, confirm headcount",
+    "katlax.com": "US subsidiary, 35+ export countries, 9 departments; may be near or over 200 staff, confirm first",
+    "aaagindia.in": "since 1933, offices in Mumbai and Dubai; confirm headcount",
+    "radadiaengineering.com": "USA office; turnkey galvanizing projects",
+    "manholecover.in": "trading name (JK Trading Co.), est. 2016; confirm own fabrication and headcount",
+    "krenterprise.in": "no headcount or certifications stated; confirm it is over 50 staff",
+    "manishaengg.com": "no phone on site; find the number before calling",
+    "ramdoot.com": "6,000 TPA capacity; confirm headcount",
     "estrellaslifesciences.com": "processing unit address not given and yahoo email; confirm they own the plant",
     "aptekinstrumentation.com": "site states 50-100 staff; gmail contact",
     "umiyagroup.com": "two units in Vahelal plus Naroda HO; 350+ dealers",
