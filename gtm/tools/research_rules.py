@@ -58,6 +58,10 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "minalspecialities.com": "Office-only HQ: plant at Saykha, Vagra (Bharuch); meet at the Ambli-Bopal office",
+    "skumarindia.com": "also a Zonten machine distributor; confirm printing plant size on call",
+    "watermanpump.com": "site says 250+ staff (about page says 500+ globally); above the 200 band",
+    "mountfabpackaging.com": "site says 450+ staff across three Changodar units; above the 200 band",
     "medior.in": "plants at Sachin (Surat) and Baddi (HP); meet at the Makarba office; site also calls itself marketing-led",
     "modsonic.com": "Elecon group company; plant at Naroda GIDC, admin office at Vallabh Vidyanagar",
     "jaydinesh.com": "group of four chemical firms (Associated Chemical, Associated Fine Chem, Ashwin, Bisil); approach as one account",
