@@ -1,15 +1,13 @@
-# AMD-322 · Baheti Recycling Industries Limited: call script
+# AMD-340 · Meeka Machinery Pvt. Ltd.: call script
 
-**Call:** +91 79 2562 7682 (site tel link); WhatsApp +91 90990 57102
-**Ask for:** Shankerlal Shah (Chairman); Balkishan Shah (Managing Director); Yash Shah (Jt. Managing Director); Manoj Shah (Chief Financial Officer); Devang Patel (QC Head); Atul Sharma (GM Sales & Business Development)
-**Language:** Hindi first (Hinglish lines below). Switch to Gujarati or English the moment they do.
-**What we know (from their website):** Aluminium alloy ingots, aluminium deox, ferro alloys. Dehgam district, Gujarat (plant). IPO opened 28 Nov 2022 (prospectus linked); H1FY25 earnings call posted; exports to South Korea, Middle East (no count); Join our Team page; 2500 MT installed capacity
-**Fit:** score 75, tier A. Either: decide on budget at discovery
-**Goal of the call:** learn two or three facts and book a 30-minute visit at the Dehgam office. Do not sell on the phone.
+**Call:** +91-9879459660
+**Ask for:** Gyanendra Shukla (Commercial Manager, sales and services)
+**Language:** Gujarati first (Gujarati section below), then mirror them. If they answer in Hindi, use the Hinglish lines.
+**What we know (from their website):** Overhead cranes, flameproof cranes, hoists, jib cranes. 3822/B, Phase IV, GIDC, Vatva, Ahmedabad 382445. ISO 9001-2000 claimed (about page); client logos incl. ONGC, GAIL, BHEL, ISRO; exporter (countries not named); careers page blocked, not read
+**Fit:** score 60, tier B. ERPNext first (single site, price-sensitive); Odoo if they want CRM/website
+**Goal of the call:** learn two or three facts and book a 30-minute visit at the Vatva unit. Do not sell on the phone.
 
-**Caution:** Office-only HQ: plant at Dehgam (Gandhinagar dist), inside the widened belt
-
-Source: https://www.bahetiindustries.com/ ; https://www.bahetiindustries.com/corporate/infrastructure/ ; https://www.bahetiindustries.com/corporate/our-organization/. Check the person's current role on LinkedIn or the site before calling.
+Source: https://www.meekamachinery.com/; https://www.meekamachinery.com/about-us.html. Check the person's current role on LinkedIn or the site before calling.
 
 ---
 
@@ -17,7 +15,7 @@ Source: https://www.bahetiindustries.com/ ; https://www.bahetiindustries.com/cor
 
 > **Dhaval:** Namaste, main Dhaval bol raha hoon, Brilworks se, Ahmedabad. Ek chhoti si help chahiye thi.
 >
-> Aapke yahan operations aur accounts ka software ya system kaun dekhta hai? Shankerlal ji, Balkishan ji, ya koi aur?
+> Aapke yahan operations aur accounts ka software ya system kaun dekhta hai? Gyanendra ji, ya koi aur?
 
 *Receptionists answer "who handles X" easily. Write the name down.*
 
@@ -27,7 +25,7 @@ Source: https://www.bahetiindustries.com/ ; https://www.bahetiindustries.com/cor
 
 ## 2. Opening with the decision maker (20 seconds)
 
-> **Dhaval:** Namaste Shankerlal ji, main Dhaval, Brilworks se, Ahmedabad. Kya abhi do minute baat kar sakte hain, ya baad mein call karun?
+> **Dhaval:** Namaste Gyanendra ji, main Dhaval, Brilworks se, Ahmedabad. Kya abhi do minute baat kar sakte hain, ya baad mein call karun?
 
 *If they say later: "Kal subah 11 baje theek rahega?" and log it.*
 
@@ -35,17 +33,17 @@ Source: https://www.bahetiindustries.com/ ; https://www.bahetiindustries.com/cor
 
 > **Dhaval:** Hum Brilworks hain, Ahmedabad ki software company. Hum Odoo aur ERPNext ke partner hain, aur manufacturers ke liye stock, production, sales aur accounts ek system mein laate hain. [fill: one line of proof, e.g. "Humne MP mein ek building-materials manufacturer ke liye poora ERP banaya hai."]
 >
-> Main aapki website dekh raha tha.  Isliye socha seedha aapse baat karun.
+> Main aapki website dekh raha tha. Vatva GIDC mein aapka unit hai, aur ONGC, BHEL, GAIL jaise clients ke saath kaam karte hain. Isliye socha seedha aapse baat karun.
 
 ## 4. Easy questions first (two-way, 1 to 2 minutes)
 
 Ask one at a time. Wait for the answer. Repeat back one detail before the next question.
 
 1. **Their role (easy):** "Aap khud operations side dekhte hain ya finance side?"
-2. **Their setup (easy, flattering):** ""
+2. **Their setup (easy, flattering):** "Overhead, flameproof, hoist aur jib cranes ki production ek hi unit mein chalti hai kya?"
 3. **Current system (easy):** "Abhi billing aur stock ke liye Tally use hota hai ya koi aur software?"
-4. **Opens the pain:** ""
-5. **Opens the pain, another angle:** ""
+4. **Opens the pain:** "Har crane ka job-wise BOM aur costing, order ke hisaab se kaise nikalte hain?"
+5. **Opens the pain, another angle:** "Site par installation aur service ka record, spare parts stock ke saath kaise maintain karte hain?"
 
 *Don't ask about revenue or margins on the first call.*
 
@@ -53,15 +51,15 @@ Ask one at a time. Wait for the answer. Repeat back one detail before the next q
 
 If they mention Excel, WhatsApp, registers, phoning the plant or month-end delays:
 
-> **Dhaval:** 
+> **Dhaval:** Toh job-wise BOM aur spare parts ka hisaab abhi manual chal raha hai, yeh kaafi time leta hoga.
 
 ## 6. One line of value, specific to them (15 seconds)
 
-> **Dhaval:** Hum yahi karte hain. 
+> **Dhaval:** Hum yahi karte hain. Ek ERP mein job-wise BOM, costing aur spare parts ka record ek jagah rahega; Tally accounts aur GST ke liye chal sakta hai.
 
 ## 7. Ask for the visit (not a demo)
 
-> **Dhaval:** Kya main next week Dehgam office aa ke 30 minute mil sakta hoon? Main dikhaunga ki aapke jaisa setup ek system mein kaisa dikhta hai. Tuesday ya Thursday, kaunsa theek rahega?
+> **Dhaval:** Kya main next week Vatva unit aa ke 30 minute mil sakta hoon? Main dikhaunga ki aapke jaisa setup ek system mein kaisa dikhta hai. Tuesday ya Thursday, kaunsa theek rahega?
 
 *Always offer two options. When they agree:* "Main aapko WhatsApp pe confirm bhej deta hoon. Yeh number sahi hai?"
 
@@ -69,7 +67,7 @@ If they mention Excel, WhatsApp, registers, phoning the plant or month-end delay
 
 | They say | Dhaval says |
 |---|---|
-| "Humare paas Tally hai, sab chal raha hai." | "Tally accounts aur GST ke liye bahut achha hai, woh chalu rahega. Main sirf yeh samajhna chahta tha: " |
+| "Humare paas Tally hai, sab chal raha hai." | "Tally accounts aur GST ke liye bahut achha hai, woh chalu rahega. Main sirf yeh samajhna chahta tha: Har crane ka job-wise BOM aur costing, order ke hisaab se kaise nikalte hain?" |
 | "Abhi zaroorat nahi." | "Theek hai. Ek sawaal: agle saal production ya branches badhe, toh kya yahi system chalega?" Then: "Main 3 mahine baad call karun?" |
 | "Details bhej do." | "Zaroor. Kis cheez pe focus karun, stock aur batch, production costing, ya accounts? Taaki aapke kaam ka ho." Get the email, send within an hour. |
 | "Kitna kharcha hoga?" | "Phase 1 (stock, purchase, sales, accounts) ₹2 lakh se shuru hota hai. Exact quote aapka setup dekh ke dunga. Isliye milna zaroori hai." |
@@ -78,29 +76,29 @@ If they mention Excel, WhatsApp, registers, phoning the plant or month-end delay
 
 ## 9. Close every call the same way
 
-> **Dhaval:** Bahut shukriya Shankerlal ji, aapka time dene ke liye. Main abhi WhatsApp pe meeting confirm karta hoon.
+> **Dhaval:** Bahut shukriya Gyanendra ji, aapka time dene ke liye. Main abhi WhatsApp pe meeting confirm karta hoon.
 
 ## Gujarati lines
 
-> નમસ્તે, હું ધવલ બોલું છું, Brilworks માંથી, Ahmedabad. તમારે ત્યાં operations અને accounts નું software કોણ જુએ છે? Shankerlalજી, Balkishanજી?
+> નમસ્તે, હું ધવલ બોલું છું, Brilworks માંથી, Ahmedabad. તમારે ત્યાં operations અને accounts નું software કોણ જુએ છે? Gyanendraજી?
 >
-> નમસ્તે Shankerlalજી, હું ધવલ, Brilworks માંથી, Ahmedabad. બે મિનિટ વાત થઈ શકે?
+> નમસ્તે Gyanendraજી, હું ધવલ, Brilworks માંથી, Ahmedabad. બે મિનિટ વાત થઈ શકે?
 >
-> અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. 
+> અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. Vatva GIDC માં તમારો unit છે, અને ONGC, BHEL, GAIL જેવા clients સાથે કામ કરો છો.
 >
-> 
+> દરેક crane નો job-wise BOM અને costing, order પ્રમાણે કેવી રીતે કાઢો છો?
 >
-> આવતા અઠવાડિયે Dehgam office પર 30 મિનિટ મળવા આવી શકું? મંગળવાર કે ગુરુવાર, શું ફાવશે?
+> આવતા અઠવાડિયે Vatva unit પર 30 મિનિટ મળવા આવી શકું? મંગળવાર કે ગુરુવાર, શું ફાવશે?
 
 ## English lines
 
-> Hi Shankerlal, this is Dhaval from Brilworks in Ahmedabad. Is now a bad time for two minutes?
+> Hi Gyanendra, this is Dhaval from Brilworks in Ahmedabad. Is now a bad time for two minutes?
 >
-> We're Odoo and ERPNext partners. We help manufacturers run stock, production, sales and accounts in one system. I was looking at your website. 
+> We're Odoo and ERPNext partners. We help manufacturers run stock, production, sales and accounts in one system. I was looking at your website. Your unit is in Vatva GIDC, and you work with clients like ONGC, BHEL and GAIL.
 >
-> 
+> How do you work out job-wise BOM and costing for each crane order?
 >
-> Could I come by the Dehgam office for 30 minutes next week? Would Tuesday or Thursday suit you better?
+> Could I come by the Vatva unit for 30 minutes next week? Would Tuesday or Thursday suit you better?
 
 ## Questions they will probably ask
 
@@ -114,17 +112,17 @@ Full answers are in `scripts/01-buyer-faq.md`. Fill the [fill] items there befor
 
 ## Email draft (not sent; send only after approval)
 
-**Subject:** Baheti Recycling Industries Limited: stock and accounts in one system
+**Subject:** Meeka Machinery Pvt. Ltd.: how do you work out job-wise bom and costing for each crane 
 
-Hi Shankerlal,
+Hi Gyanendra,
 
-I was looking at your website. 
+I was looking at your website. Your unit is in Vatva GIDC, and you work with clients like ONGC, BHEL and GAIL.
 
- In plants like yours this often ends up split across Tally, Excel and WhatsApp, and the owner sees the real numbers late.
+How do you work out job-wise BOM and costing for each crane order? In plants like yours this often ends up split across Tally, Excel and WhatsApp, and the owner sees the real numbers late.
 
 I'm Dhaval from Brilworks, an Odoo and ERPNext partner in Ahmedabad. We put stock, production, sales and accounts in one system, starting with a fixed-scope first phase. Tally can stay for accounts and GST while you move.
 
-Could I come by the Dehgam office for 30 minutes next week?
+Could I come by the Vatva unit for 30 minutes next week?
 
 Dhaval
 Brilworks | Odoo and ERPNext partner
@@ -132,13 +130,13 @@ Brilworks | Odoo and ERPNext partner
 
 If this isn't relevant, just reply "no thanks" and I won't follow up.
 
-**Follow-up, day 4 (same thread):** One quick win we usually start with: getting stock and batch movements into one place before touching production planning. Happy to show what that would look like for Baheti Recycling Industries Limited.
+**Follow-up, day 4 (same thread):** One quick win we usually start with: getting stock and batch movements into one place before touching production planning. Happy to show what that would look like for Meeka Machinery Pvt. Ltd..
 
 **Follow-up, day 10 (same thread):** I'll leave this here. If useful, I can send a one-page sketch of how your stock, production and accounts would sit in one system. Just reply "send it".
 
 ## WhatsApp after the call (send only after approval)
 
-> Shankerlalજી, આજે વાત કરવા બદલ આભાર. ધવલ, Brilworks. આપણે વાત કરી તેમ [visit date] એ Dehgam office પર 30 મિનિટ મળીએ. Confirm કરશો?
+> Gyanendraજી, આજે વાત કરવા બદલ આભાર. ધવલ, Brilworks. આપણે વાત કરી તેમ [visit date] એ Vatva unit પર 30 મિનિટ મળીએ. Confirm કરશો?
 
 ## Visit checklist
 

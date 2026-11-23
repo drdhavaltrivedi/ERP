@@ -58,6 +58,13 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "medior.in": "plants at Sachin (Surat) and Baddi (HP); meet at the Makarba office; site also calls itself marketing-led",
+    "modsonic.com": "Elecon group company; plant at Naroda GIDC, admin office at Vallabh Vidyanagar",
+    "jaydinesh.com": "group of four chemical firms (Associated Chemical, Associated Fine Chem, Ashwin, Bisil); approach as one account",
+    "fitwelpharma.com": "plant street address not on site; also runs a pharma distribution arm",
+    "innovitoy.com": "factory street address not on site; toy maker selling online and to shops",
+    "keepsakeautomation.com": "startup in a Santej shed; may be under 50 staff, confirm size on call",
+    "bahetiindustries.com": "listed after a Nov 2022 IPO; may already be evaluating ERP",
     "clapspharma.com": "plant address not on site; leadership likely Hindi-speaking, open in Hindi",
     "brothersindia.com": "site says 300+ engineers; may be above the 200 band",
     "galaxystamping.com": "main plant is Rajkot; Chhatral unit is on Kadi-Kalol Road; corporate office Thaltej",
