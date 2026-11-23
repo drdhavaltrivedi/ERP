@@ -68,6 +68,13 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "madhurajgases.com": "CEO name on site looks like placeholder text; ignore it and ask for the owner",
+    "mahickra.com": "four units and investor pages, likely listed; confirm headcount",
+    "transparesindia.com": "12,000 MT a year capacity; confirm headcount",
+    "pcasignages.com": "head office in Mumbai and parent group in Malaysia; ERP decision may sit outside Ahmedabad",
+    "plurimo.co.in": "site says 200+ staff; at the top of the band",
+    "yogienterprise.com": "sister companies at Nandesari and Panoli Dahej; confirm group headcount",
+    "numaex.com": "fabrication address not on site, only the showroom; confirm the plant on call",
     "krishnaengineering.in": "leader names on site look like template text; ignore them and ask for the owner",
     "rhombuspharma.com": "site says 200+ staff across two units; at the top of the band",
     "mascotpump.com": "listed as 101-500 staff; confirm size",
