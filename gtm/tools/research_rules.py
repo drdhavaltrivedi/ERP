@@ -26,6 +26,11 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "fastoadhesives.com": "plant campus location not stated; only an SG Highway office",
+    "mithaiandmore.in": "sweet and dairy retail chain with shops; not a plant-led manufacturer",
+    "rsbcottex.com": "only a Prahlad Nagar office on site; spinning mill location not confirmed",
+    "vardhmaninsulation.com": "only a Ghatlodia office address; plant location not stated",
+    "qwind.in": "plants are at Morbi; Ahmedabad is the corporate office only",
     "skanttr.com": "no plant address on site; verify location before outreach",
     "raajtubes.com": "plant location not stated; only a Sindhu Bhavan Road office",
     "earthentextures.com": "only a Thaltej office address; plant location not confirmed",
@@ -56,6 +61,7 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "clapspharma.com": "plant address not on site; leadership likely Hindi-speaking, open in Hindi",
     "brothersindia.com": "site says 300+ engineers; may be above the 200 band",
     "galaxystamping.com": "main plant is Rajkot; Chhatral unit is on Kadi-Kalol Road; corporate office Thaltej",
     "kodyconverting.com": "Kody Group; same group as Star Technocrates and Arvind Anticor, approach as one account",
