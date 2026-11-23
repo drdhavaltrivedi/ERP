@@ -26,6 +26,9 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "kaynessemicon.com": "subsidiary of listed Kaynes Technology; large OSAT investment, scale well over 200 and group-level buyers",
+    "dmakindia.com": "no plant street address on site",
+    "arvind-pd.in": "no plant street address or phone on site; JV of a large listed group",
     "rototech.in": "no company name or plant street address on site",
     "anilenterprise.in": "proprietor pattern shop with 2 VMCs and personal email ids; scale implies well under 50 staff",
     "namisteel.com": "site states 250+ professionals and 75,000 MTPA, over the 200 band",
@@ -71,6 +74,14 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "bozzler.com": "no leader named on site; ask for the owner on the first call",
+    "omnibrx.com": "VC-funded (Series A) with US entity; confirm Sanand plant headcount and whether a global ERP is already mandated",
+    "choiceprefab.com": "30,000 MT/yr PEB capacity across two units: likely top of the 50-200 band, confirm headcount; no leader named",
+    "epalpalletindia.com": "legal name not on site (Apollo lists it as Shivam Packaging); one Google review alleges unpaid goods, check before extending credit terms",
+    "samarika.com": "partnership with a US office; confirm headcount",
+    "aayushipharma.com": "trades as a division of Viral Industries Pvt Ltd",
+    "sonictechindia.com": "India unit of a US PCB group, 200,000+ sq ft across sites; confirm India headcount and who decides on ERP",
+    "veeral.com": "projects in 7 countries; confirm headcount",
     "rajgorcastor.com": "NSE SME listed; plant in Harij (Patan dist), registered office in Bodakdev; 450 MT/day, confirm headcount",
     "katlax.com": "US subsidiary, 35+ export countries, 9 departments; may be near or over 200 staff, confirm first",
     "aaagindia.in": "since 1933, offices in Mumbai and Dubai; confirm headcount",
