@@ -26,6 +26,10 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "dusons.in": "plants are Mathasuliya (Sabarkantha) and Faridabad, not the Ahmedabad belt; Ahmedabad is an office only",
+    "daffodilgroup.in": "six-company group with a 500,000 sq ft plant and US/EU offices; likely over 500 staff",
+    "ctmtechtextile.com": "only plant is in Mehsana, outside the Ahmedabad belt",
+    "kivonyx.com": "PCD franchise marketer; own plant not confirmed (group plant is Octavius)",
     "qchem.in": "set up in 2024; team size unclear (site counter shows 1+). Revisit in 2027",
     "hpbl.in": "part of the Plastene group with 8 plants; likely over 500 staff",
     "bloomdekor.com": "site links an insolvency (CIRP) page; check status before any outreach",
