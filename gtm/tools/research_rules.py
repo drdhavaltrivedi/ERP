@@ -76,6 +76,8 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "revieraoverseas.com": "no leader named on site; ask for the owner on the first call",
+    "apurviind.com": "plant in Rajpur, Kadi (Mehsana) with Prahladnagar office; no certifications named, confirm headcount",
     "ratnarajfoods.in": "Chaloda (Dholka) plant is in Ahmedabad district; several family contacts listed, Deep Shah uses the md@ address",
     "divinetubes.com": "family group with non-manufacturing businesses; 8000+ MT/yr capacity, confirm headcount is within the band",
     "apolloscreens.com": "part of the Gujarat Apollo group (listed parent) with an Australian unit; confirm whether ERP is decided at group level",
