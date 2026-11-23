@@ -49,6 +49,9 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "rameswar.com": "Site gives no Ahmedabad street address; group roots in Kolkata. Confirm the plant location first.",
+    "delwishealthcare.com": "Also runs a PCD franchise model; confirm which of the 5 units are their own.",
+    "gmpmachpro.com": "About page lists US factory addresses that look like template text; plant confirmed only at Changodar.",
     "dpconsteel.in": "Factory is at Kathlal (Kheda); office in Jagatpur. Propose the office for the visit.",
     "girnarayurvedic.net": "IndiaMART lists 101-500 staff; confirm size on the call.",
     "kxol.in": "Plant at Santej; second unit in Kandla SEZ.",
