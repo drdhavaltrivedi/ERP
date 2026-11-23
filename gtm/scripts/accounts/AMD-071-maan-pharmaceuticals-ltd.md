@@ -86,7 +86,7 @@ If they mention Excel, WhatsApp, registers, phoning the plant or month-end delay
 >
 > નમસ્તે {name}જી, હું ધવલ, Brilworks માંથી, Ahmedabad. બે મિનિટ વાત થઈ શકે?
 >
-> અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. તમારી વેબસાઇટ જોઈ રહ્યો હતો. તમે 30થી વધુ માર્કેટમાં એક્સપોર્ટ કરો છો, અને મહેસાણામાં WHO-GMP પ્લાન્ટ છે.
+> અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. તમે 30થી વધુ માર્કેટમાં એક્સપોર્ટ કરો છો, અને મહેસાણામાં WHO-GMP પ્લાન્ટ છે.
 >
 > મલ્ટી-કન્ટ્રી એક્સપોર્ટ માટે એક્સપોર્ટ ડોક્યુમેન્ટ અને બેચ વાઇઝ સ્ટોકનો રેકોર્ડ અત્યારે કેવી રીતે રખાય છે?
 >

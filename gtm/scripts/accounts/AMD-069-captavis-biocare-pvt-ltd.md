@@ -84,7 +84,7 @@ If they mention Excel, WhatsApp, registers, phoning the plant or month-end delay
 >
 > નમસ્તે Nisargbhaiજી, હું ધવલ, Brilworks માંથી, Ahmedabad. બે મિનિટ વાત થઈ શકે?
 >
-> અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. તમારી વેબસાઇટ જોઈ રહ્યો હતો. બાવળામાં સોફ્ટ જેલ કેપ્સ્યુલ પ્લાન્ટ છે, અને WHO-GMP તથા ISO 22000 પ્રમાણિત છો.
+> અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. બાવળામાં સોફ્ટ જેલ કેપ્સ્યુલ પ્લાન્ટ છે, અને WHO-GMP તથા ISO 22000 પ્રમાણિત છો.
 >
 > સોફ્ટ જેલ બેચ ટ્રેકિંગ અને રો મટીરિયલ લોટ-વાઇઝ સ્ટોક અત્યારે Excel કે રજિસ્ટરમાં થાય છે?
 >

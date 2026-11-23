@@ -25,6 +25,7 @@ NAMES = {
 
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
+    "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
     "qchem.in": "set up in 2024; team size unclear (site counter shows 1+). Revisit in 2027",
     "hpbl.in": "part of the Plastene group with 8 plants; likely over 500 staff",
     "bloomdekor.com": "site links an insolvency (CIRP) page; check status before any outreach",
@@ -35,6 +36,14 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "kxol.in": "Plant at Santej; second unit in Kandla SEZ.",
+    "lachandra.in": "Three API plants, locations not named; head office in Thaltej. Confirm plant location.",
+    "avore.in": "EV start-up; plant at Chhatral. Confirm production headcount.",
+    "com-fit.com": "Site says 254+ employees; plant at Nandasan (Kadi). Confirm headcount.",
+    "denischemlab.com": "BSE listed; plant at Chhatral, office on Satellite Road.",
+    "ornetgroup.com": "Site says 200+ employees across group; confirm headcount.",
+    "neocorp.in": "Group company of Neoplast; plants in Vatva and Changodar.",
+    "naroto.com": "Site claims 2,00,000 sq ft facility; confirm headcount.",
     "techflow.net": "Site says 187 on roll plus 239 contract staff; single Kathwada campus.",
     "sltlmedical.com": "Medical division of the SLTL group; decision may sit with the group.",
     "ohhpotato.com": "Factory at Vijapur (Mehsana); head office in Kudasan, Gandhinagar.",

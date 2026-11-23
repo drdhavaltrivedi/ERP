@@ -84,7 +84,7 @@ If they mention Excel, WhatsApp, registers, phoning the plant or month-end delay
 >
 > નમસ્તે {name}જી, હું ધવલ, Brilworks માંથી, Ahmedabad. બે મિનિટ વાત થઈ શકે?
 >
-> અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. તમારી વેબસાઇટ જોઈ રહ્યો હતો. મોરૈયામાં પ્લાન્ટ છે, અને કેપ્સ્યુલ, સિરપ તથા ઓઇલની વિશાળ રેન્જ છે.
+> અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. મોરૈયામાં પ્લાન્ટ છે, અને કેપ્સ્યુલ, સિરપ તથા ઓઇલની વિશાળ રેન્જ છે.
 >
 > હર્બલ રો મટીરિયલનું લોટ-વાઇઝ ટ્રેકિંગ અને બેચ સ્ટોક અત્યારે કેવી રીતે થાય છે?
 >

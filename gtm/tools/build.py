@@ -45,6 +45,8 @@ if os.path.exists(RES):
             phone=r.get("ph",""), email_generic=r.get("em",""), dm=r.get("dm") or "Not named on site", signal=r.get("sig",""),
             multi_loc=ml, rank=RANK.get(r.get("ind"), 5), src=r.get("src",""), li="", lang_code=r.get("lang") or "gu",
             note=NOTES.get(d, "")))
+        for k, pre in (("seen_hi", r"^main aapki website dekh raha tha[.,]?\s*"), ("seen_en", r"^i was looking at your website[.:,]?\s*(your website says\s*)?"), ("seen_gu", r"^(હું )?(આપની|તમારી) વેબસાઇટ જોઈ રહ્યો હતો[.,]?\s*")):
+            if r.get(k): r[k] = re.sub(pre, "", r[k], flags=re.I)
         V2[name] = r
     with open(os.path.join(GTM, "research", "pending.txt"), "w") as f:
         f.write("# Not researched yet (web-fetch limit). Re-run research on these.\n" + "\n".join(PENDING) + "\n")
