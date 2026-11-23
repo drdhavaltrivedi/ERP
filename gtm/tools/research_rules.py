@@ -26,6 +26,14 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "sterlingagrichem.com": "plant location not stated (02717 phone code suggests Sanand/Bavla); confirm before outreach",
+    "deepakpolyplast.in": "plant location not stated; only an SG Highway office",
+    "amrock.in": "plant is at Metoda GIDC, Rajkot; Ahmedabad is the office and a Changodar warehouse",
+    "alfapumpindia.com": "address is a shopping-centre unit with a gmail contact; no plant shown",
+    "shahgroupco.com": "plant is at Ukhai, Vijapur (Mehsana); Ahmedabad is the office",
+    "knackflexipack.com": "manufacturing unit location not stated; only a Ghatlodia office",
+    "miltonindustries.in": "plants are at Kadi (Mehsana) and Prantij (Sabarkantha); Ahmedabad is the registered office",
+    "febrros.com": "site says 30+ employees, likely below the 50-200 band",
     "fastoadhesives.com": "plant campus location not stated; only an SG Highway office",
     "mithaiandmore.in": "sweet and dairy retail chain with shops; not a plant-led manufacturer",
     "rsbcottex.com": "only a Prahlad Nagar office on site; spinning mill location not confirmed",
