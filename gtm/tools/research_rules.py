@@ -26,6 +26,8 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "bajajtiles.com": "three plants at 75,000 sq m/day plus five group companies; likely well above 200 staff",
+    "ultradenim.in": "capacity of 1.8M m fabric and 100k garments a month suggests well over 200 staff",
     "mbrflexibles.com": "qualifies on facts but call script was not generated; queued for retry",
     "deltalaminates.in": "site says about 250 production and quality staff; above the 200 band",
     "aquaticsindia.com": "site unreachable (robots disallowed)",
@@ -66,6 +68,13 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "krishnaengineering.in": "leader names on site look like template text; ignore them and ask for the owner",
+    "rhombuspharma.com": "site says 200+ staff across two units; at the top of the band",
+    "mascotpump.com": "listed as 101-500 staff; confirm size",
+    "flowchem.com": "group of five brands; confirm which entity decides",
+    "hilifegroup.com": "10+ sales offices plus Europe and Malaysia; confirm headcount",
+    "indosmc.com": "listed company with 7 group companies; headcount may exceed 200",
+    "nexusltd.in": "plant address not stated on site; confirm on call",
     "gelmekhealth.com": "plant address not given on site; confirm on call",
     "raajratnaelectrodes.com": "Office-only HQ: plant at Mehsana; meet at the Bodakdev office; group linked to Raajratna Metal Industries",
     "sunrisedyestuff.com": "three units plus group companies Kalida and Adilak; confirm headcount",
