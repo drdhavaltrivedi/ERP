@@ -74,6 +74,11 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "neosealengg.com": "no leader named on site; ask for the owner on the first call",
+    "auraplastics.com": "four plants across Gujarat, Hyderabad and Nagpur: likely top of the 50-200 band or above, confirm headcount",
+    "gunjanpaints.com": "corporate office in Mumbai; confirm whether decisions sit at the Kalol plant",
+    "uizincoxide.com": "group with a second unit in Yamunanagar, Haryana; head office likely north India, confirm who decides for the Chhatral plant",
+    "axitacotton.com": "listed company (IPO 2018); no leader named on site, ask for the owner on the first call",
     "bozzler.com": "no leader named on site; ask for the owner on the first call",
     "omnibrx.com": "VC-funded (Series A) with US entity; confirm Sanand plant headcount and whether a global ERP is already mandated",
     "choiceprefab.com": "30,000 MT/yr PEB capacity across two units: likely top of the 50-200 band, confirm headcount; no leader named",
