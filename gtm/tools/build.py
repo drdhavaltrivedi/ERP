@@ -21,7 +21,7 @@ seed = {}
 exec(open(os.path.join(HERE, "research_seed.py")).read(), seed)
 A, HOLD = seed["A"], [tuple(x) for x in seed["HOLD"]]
 from v2_27 import V as V27
-from research_rules import NAMES, HOLD_OVERRIDE, NOTES, RANK
+from research_rules import NAMES, HOLD_OVERRIDE, NOTES, RANK, ADMIT
 
 # Web research (one JSON record per company), merged into A (qualified) or HOLD (not a fit)
 RES = os.path.join(GTM, "research", "ahmedabad-web-research.jsonl")
@@ -35,6 +35,7 @@ if os.path.exists(RES):
         v = r.get("v") or ""
         if not v or "budget" in v: PENDING.append(d); continue
         if d in HOLD_OVERRIDE: v = "H:" + HOLD_OVERRIDE[d]
+        if d in ADMIT: v = "Q"
         name = NAMES.get(d) or r.get("n") or d
         name = re.sub(r"\s*\((legal suffix|per |trading).*?\)", "", name).strip()
         if v != "Q":
@@ -44,7 +45,7 @@ if os.path.exists(RES):
             address=r.get("addr",""), cluster=(r.get("cl") or r.get("visit","")).split(";")[0].strip(), website="http://www." + d,
             phone=r.get("ph",""), email_generic=r.get("em",""), dm=r.get("dm") or "Not named on site", signal=r.get("sig",""),
             multi_loc=ml, rank=RANK.get(r.get("ind"), 5), src=r.get("src",""), li="", lang_code=r.get("lang") or "gu",
-            note=NOTES.get(d, "")))
+            note="; ".join(x for x in (ADMIT.get(d, ""), NOTES.get(d, "")) if x)))
         for k, pre in (("seen_hi", r"^main aapki website dekh raha tha[.,]?\s*"), ("seen_en", r"^i was looking at your website[.:,]?\s*(your website says\s*)?"), ("seen_gu", r"^(હું )?(આપની|તમારી) વેબસાઇટ જોઈ રહ્યો હતો[.,]?\s*")):
             if r.get(k): r[k] = re.sub(pre, "", r[k], flags=re.I)
         V2[name] = r
