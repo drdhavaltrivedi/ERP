@@ -26,6 +26,9 @@ NAMES = {
 # Researched as "Q" but held back after review.
 HOLD_OVERRIDE = {
     "perfectssparts.com": "site says 40+ employees, below the 50-200 band",
+    "deltalaminates.in": "site says about 250 production and quality staff; above the 200 band",
+    "aquaticsindia.com": "site unreachable (robots disallowed)",
+    "citizenindia.com": "site says 350+ staff across two plants; above the 200 band",
     "packmechgroup.com": "homepage did not render; no plant address or facts confirmed",
     "atreypharma.com": "site says 250 team members across two units; above the 200 band",
     "rksynthesis.com": "site says 250+ workforce across three plants; above the 200 band",
@@ -62,6 +65,10 @@ HOLD_OVERRIDE = {
 
 # Kept, with a caution for the caller.
 NOTES = {
+    "careinstruments.com": "also describes itself as trader and importer; confirm own-make share",
+    "solderma.com": "plant street address not on site; confirm on call",
+    "devarsons.com": "phone is a Mumbai number; group HQ may be in Mumbai, confirm who decides",
+    "ctmmills.com": "plant address not separately stated; may be linked to CTM Technical Textiles already on the list",
     "safexelectromech.com": "factory street address not on site; confirm on call",
     "sarianhealthcare.com": "five group divisions; confirm the Changodar address is the plant",
     "shahfoils.com": "listed company with 75,000 MT capacity; headcount may exceed 200",
