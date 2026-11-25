@@ -21,6 +21,7 @@ seed = {}
 exec(open(os.path.join(HERE, "research_seed.py")).read(), seed)
 A, HOLD = seed["A"], [tuple(x) for x in seed["HOLD"]]
 from v2_27 import V as V27
+from v3_27 import V3
 from research_rules import NAMES, HOLD_OVERRIDE, NOTES, RANK, ADMIT
 
 # Web research (one JSON record per company), merged into A (qualified) or HOLD (not a fit)
@@ -56,7 +57,7 @@ for c, x in V27.items(): V2[c] = x
 COLS = ["account_id","company","industry","sub_segment","headcount","address","cluster","website","phone_board","email_generic",
         "decision_makers","linkedin_main","work_email","email_verification","pain_signal","signal_source","fit_score","tier",
         "odoo_vs_erpnext","call_language","owner","status","last_activity","next_step","next_step_date","notes"]
-STATUSES = ["Researched","Called - no answer","Called - gatekeeper","Called - spoke to DM","Meeting booked","Visited",
+STATUSES = ["Researched","Called - no answer","Called - gatekeeper","Called - spoke to DM","Bad number","Nurture","Meeting booked","Visited",
             "Discovery done","Proposal sent","Won","Lost","Not a fit","Do not contact"]
 
 def score(a):
@@ -148,9 +149,9 @@ with open(path, "w", newline="", encoding="utf-8") as f:
 with open(os.path.join(GTM, "leads", "held.csv"), "w", newline="", encoding="utf-8") as f:
     w = csv.writer(f); w.writerow(["company","reason","website"]); w.writerows([list(x) + [""] * (3 - len(x)) for x in HOLD])
 
-# ---------- 3. per-account personalised scripts (v2 conversational format) ----------
-from script_v2 import write_scripts
-write_scripts(ranked, rows, H, P, V2, FAQ, os.path.join(GTM, "scripts", "accounts"), first_dm, slug)
+# ---------- 3. per-account personalised scripts (v3 conversational format, see scripts/00-call-playbook.md) ----------
+from script_v3 import write_scripts
+write_scripts(ranked, rows, H, P, V2, FAQ, os.path.join(GTM, "scripts", "accounts"), first_dm, slug, V3=V3, calls=logs["calls.csv"])
 
 # ---------- 4. Excel view ----------
 try:

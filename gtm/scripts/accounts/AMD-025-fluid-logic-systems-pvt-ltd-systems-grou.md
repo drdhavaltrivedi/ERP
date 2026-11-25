@@ -3,80 +3,82 @@
 **Call:** +91 79 2979 6404-406
 **Ask for:** Anish Nanavati (Managing Director) [LinkedIn]
 **Language:** Gujarati first (Gujarati section below), then mirror them. If they answer in Hindi, use the Hinglish lines.
+**Status:** Researched · next: Call board line, ask for Anish Nanavati
 **What we know (from their website):** Hydraulic systems for machine tools. 11-12 Maha-Gujarat Industrial Nagar, B/h Hotel Surbhi, NH 8A, Sarkhej-Bavla Rd, Moraiya 382213, Sanand, Ahmedabad. Weak external signal; engineered-to-order hydraulics (job costing, BOM). Needs a call to qualify
 **Fit:** score 50, tier B. ERPNext first (single site, price-sensitive); Odoo if they want CRM/website
-**Goal of the call:** learn two or three facts and book a 30-minute visit at the Changodar plant. Do not sell on the phone.
+**Goal of the call:** leave with one of: a visit date at the Changodar plant, the right person's name and a good time, one real fact about how they run today, or a callback date. Do not sell on the phone.
 
-Source: https://www.systemshydraulics.com/. Check the person's current role on LinkedIn or the site before calling.
+Source: https://www.systemshydraulics.com/. Check the person's current role on LinkedIn or the site before calling. How to run the conversation: `scripts/00-call-playbook.md`.
 
 ---
 
-## 1. Receptionist (20 seconds)
+## 1. Open the call (15 seconds)
 
-> **Dhaval:** Namaste, main Dhaval bol raha hoon, Brilworks se, Ahmedabad. Ek chhoti si help chahiye thi.
+**If reception answers** (playbook branch A): get the name, the best time and a direct number.
+
+> **Dhaval:** Namaste, main Dhaval, Brilworks se, Ahmedabad. Ek chhoti si help chahiye thi. Aapke yahan operations aur accounts ka software ya system kaun dekhta hai? Anish ji, ya koi aur?
 >
-> Aapke yahan operations aur accounts ka software ya system kaun dekhta hai? Anish ji, ya koi aur?
-
-*Receptionists answer "who handles X" easily. Write the name down.*
-
-> **If they ask "kis baare mein?":** Business software ke baare mein, stock aur accounts ka. Do minute ki baat hai.
+> **If "sir abhi nahi hain":** Koi baat nahi. Woh usually kab milte hain, subah ya shaam? Aur unka extension ya direct number mil sakta hai?
 >
-> **If they say "mail kar dijiye":** Zaroor. Kis naam se bhejun, aur kya aap unka email bata sakte hain?
+> **If "mail kar dijiye":** Zaroor. Kis naam se bhejun, aur unka email kya hai? Mail ke baad Thursday ko call karun toh baat ho jayegi?
 
-## 2. Opening with the decision maker (20 seconds)
+*Ask the receptionist's name and use it next time.*
 
-> **Dhaval:** Namaste Anish ji, main Dhaval, Brilworks se, Ahmedabad. Kya abhi do minute baat kar sakte hain, ya baad mein call karun?
+**When you reach Anish ji:**
 
-*If they say later: "Kal subah 11 baje theek rahega?" and log it.*
-
-## 3. Who we are (15 seconds, then stop talking)
-
-> **Dhaval:** Hum Brilworks hain, Ahmedabad ki software company. Hum Odoo aur ERPNext ke partner hain, aur manufacturers ke liye stock, production, sales aur accounts ek system mein laate hain. [fill: one line of proof, e.g. "Humne MP mein ek building-materials manufacturer ke liye poora ERP banaya hai."]
+> **Dhaval:** Namaste Anish ji, main Dhaval, Brilworks se, Ahmedabad. Seedha bolun toh yeh ek cold call hai. 30 second de sakte hain? Phir aap batana baat karni hai ya nahi.
 >
-> Main aapki website dekh raha tha. Aap machine-tool makers ke liye custom hydraulic systems banate ho. Isliye socha seedha aapse baat karun.
+> **If yes:** Main aapki website dekh raha tha. Aap machine-tool makers ke liye custom hydraulic systems banate ho. Hum manufacturers ke saath ERP ka kaam karte hain, Odoo aur ERPNext. Toh ek cheez samajhni thi: abhi stock aur accounts ke liye kya use karte hain, Tally ya koi ERP?
 
-## 4. Easy questions first (two-way, 1 to 2 minutes)
+*Their answer picks the branch in section 3. Stop talking and listen.*
 
-Ask one at a time. Wait for the answer. Repeat back one detail before the next question.
+## 2. Questions to have ready (ask one, then follow their answer)
 
-1. **Their role (easy):** "Aap khud operations side dekhte hain ya finance side?"
-2. **Their setup (easy, flattering):** "Ek mahine mein kitne custom hydraulic systems nikalte hain roughly?"
-3. **Current system (easy):** "Abhi billing aur stock ke liye Tally use hota hai ya koi aur software?"
-4. **Opens the pain:** "Har custom system ka BOM aur Voith, Nachi jaise bought-out parts project ke against kaise track hote hain?"
-5. **Opens the pain, another angle:** "Job khatam hone ke baad actual cost estimate se match karta hai, yeh kaise pata chalta hai?"
+Pick the next question from what they just said, not from the list order.
 
-*Don't ask about revenue or margins on the first call.*
+- **Easy, about their setup:** "Ek mahine mein kitne custom hydraulic systems nikalte hain roughly?"
+- **The pain question:** "Har custom system ka BOM aur Voith, Nachi jaise bought-out parts project ke against kaise track hote hain?"
+- **Another angle:** "Job khatam hone ke baad actual cost estimate se match karta hai, yeh kaise pata chalta hai?"
+- **Dig deeper:** "Bought-out part late aaye toh delivery date kaun update karta hai?"
+- **Dig deeper:** "Design change hone par BOM kaise update hota hai?"
+- **Who feels it:** "Yeh sabse zyada kisko pareshan karta hai, accounts ko, plant ko, ya aapko?"
+- **The last time:** "Last time yeh hua tha, toh kya hua? Kitna time laga?"
 
-## 5. Listen for the pain, then reflect it back
+*Echo their last few words when they go vague ("Thoda manual?"). Don't ask about revenue or margins on the first call.*
 
-If they mention Excel, WhatsApp, registers, phoning the plant or month-end delays:
-
-> **Dhaval:** Toh har engineer-to-order job ka BOM aur actual cost abhi Excel mein track ho raha hai.
-
-## 6. One line of value, specific to them (15 seconds)
-
-> **Dhaval:** Hum yahi karte hain. Ek ERP mein har job ka BOM, bought-out parts aur actual vs estimated cost ek jagah. Tally accounts ke liye reh sakta hai.
-
-## 7. Ask for the visit (not a demo)
-
-> **Dhaval:** Kya main next week Changodar plant aa ke 30 minute mil sakta hoon? Main dikhaunga ki aapke jaisa setup ek system mein kaisa dikhta hai. Tuesday ya Thursday, kaunsa theek rahega?
-
-*Always offer two options. When they agree:* "Main aapko WhatsApp pe confirm bhej deta hoon. Yeh number sahi hai?"
-
-## 8. If they push back
+## 3. What they say, what you say
 
 | They say | Dhaval says |
 |---|---|
-| "Humare paas Tally hai, sab chal raha hai." | "Tally accounts aur GST ke liye bahut achha hai, woh chalu rahega. Main sirf yeh samajhna chahta tha: Har custom system ka BOM aur Voith, Nachi jaise bought-out parts project ke against kaise track hote hain?" |
-| "Abhi zaroorat nahi." | "Theek hai. Ek sawaal: agle saal production ya branches badhe, toh kya yahi system chalega?" Then: "Main 3 mahine baad call karun?" |
-| "Details bhej do." | "Zaroor. Kis cheez pe focus karun, stock aur batch, production costing, ya accounts? Taaki aapke kaam ka ho." Get the email, send within an hour. |
+| "Busy hoon." | "Bilkul. Ek line mein bataun kyon call kiya: Aap machine-tool makers ke liye custom hydraulic systems banate ho. Isliye ek sawaal tha. Kal 11 baje ya shaam 5 ke baad, kya theek rahega?" |
+| "Email bhej do." | "Zaroor. Taaki generic mail na ho: aapke liye zyada important kya hai, har project ka BOM aur bought-out parts ya actual vs estimated job cost? ... Aur mail ke baad Friday ko 2 minute call kar lun?" Confirm the address letter by letter. |
+| "Tally aur Excel pe chal raha hai." | "Tally accounts ke liye best hai, woh chalu rahega. Excel mein sabse badi sheet kaunsi hai? ... Har custom system ka BOM aur Voith, Nachi jaise bought-out parts project ke against kaise track hote hain?" |
+| "Humare paas ERP hai." | "Achha, kaunsa? Kab se chal raha hai? Ise kaun own karta hai?" Then: "Project-wise BOM aur job costing us ERP mein hai?" Get a follow-up date (playbook branch E). |
+| "Abhi naya ERP liya hai." | "Congratulations. Kaunsa, aur partner kaun hai? Go-live kab ka target hai? Pehle phase mein kya aa raha hai?" Exit: "Go-live ke 2-3 mahine baad ek baar call karun?" |
+| "Zaroorat nahi hai." | "Fair hai. Ek cheez pooch sakta hoon: kya isliye ki sab already system mein hai, ya abhi priority kuch aur hai?" (playbook branch F) |
+| Wrong person (IT, accounts staff) | "Aap hi sahi insaan ho yeh samajhne ke liye. Abhi kya system hai? ... Iska decision usually kaun leta hai?" Ask for an introduction. |
 | "Kitna kharcha hoga?" | "Phase 1 (stock, purchase, sales, accounts) ₹2 lakh se shuru hota hai. Exact quote aapka setup dekh ke dunga. Isliye milna zaroori hai." |
-| "Pehle bhi ERP try kiya, kaam nahi kiya." | "Kya problem hua tha? Hum phase mein go-live karte hain, ek saath sab nahi badalte." |
-| "Aapke clients kaun hain Ahmedabad mein?" | "Ahmedabad mein hum abhi pehle 2-3 manufacturers ke saath reference terms pe kaam shuru kar rahe hain. MP mein humne ek building-materials manufacturer ka ERP banaya hai." (Never name the client. Don't claim local clients.) |
+| "Pehle bhi ERP try kiya, kaam nahi kiya." | "Kya hua tha? ... Hum phase mein go-live karte hain, ek saath sab nahi badalte." |
+| "Aapke clients kaun hain Ahmedabad mein?" | "MP mein humne ek building-materials manufacturer ka ERP banaya hai. Ahmedabad mein is saal pehle 2-3 manufacturers ke saath reference terms pe shuru kar rahe hain." (Never name the client. Don't claim local clients.) |
+| Clear no, "dobara call mat karna" | "Bilkul, sorry for disturbing. Thank you." Set status to `Do not contact`. |
 
-## 9. Close every call the same way
+## 4. When you hear the pain
 
-> **Dhaval:** Bahut shukriya Anish ji, aapka time dene ke liye. Main abhi WhatsApp pe meeting confirm karta hoon.
+Ask one more question about it first. Then reflect it back:
+
+> **Dhaval:** Toh har engineer-to-order job ka BOM aur actual cost abhi Excel mein track ho raha hai. Sahi samjha?
+
+One line of value, then the visit ask:
+
+> **Dhaval:** Hum yahi karte hain. Ek ERP mein har job ka BOM, bought-out parts aur actual vs estimated cost ek jagah. Tally accounts ke liye reh sakta hai. Kya main next week Changodar plant aa ke 30 minute dikha sakta hoon ki aapke setup mein yeh kaisa dikhega? Tuesday ya Thursday?
+
+*When they agree:* "Main WhatsApp pe confirm bhejta hoon. Yeh number sahi hai?"
+
+## 5. Leave with a next step
+
+Never end with "main contact karta hoon". End with a date, a name or a number, and thank them by name:
+
+> **Dhaval:** Bahut shukriya Anish ji, aapka time dene ke liye. Toh main [day] ko [time] call karta hoon.
 
 ## Gujarati lines
 
@@ -86,15 +88,17 @@ If they mention Excel, WhatsApp, registers, phoning the plant or month-end delay
 >
 > અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. મેં જોયું કે તમે machine tool industry માટે custom hydraulic system બનાવો છો.
 >
+> અત્યારે stock અને accounts માટે શું વાપરો છો, Tally કે કોઈ ERP?
+>
 > દરેક custom system નું BOM અને bought-out parts project સામે કેવી રીતે track થાય છે?
 >
 > આવતા અઠવાડિયે Changodar plant પર 30 મિનિટ મળવા આવી શકું? મંગળવાર કે ગુરુવાર, શું ફાવશે?
 
 ## English lines
 
-> Hi Anish, this is Dhaval from Brilworks in Ahmedabad. Is now a bad time for two minutes?
+> Hi Anish, this is Dhaval from Brilworks in Ahmedabad. To be upfront, this is a cold call. Can I take 30 seconds, and then you tell me if it's worth continuing?
 >
-> We're Odoo and ERPNext partners. We help manufacturers run stock, production, sales and accounts in one system. I was looking at your website. I saw that you build custom hydraulic systems for machine-tool makers.
+> I was looking at your website. I saw that you build custom hydraulic systems for machine-tool makers. We're Odoo and ERPNext partners, so I wanted to ask: what do you use for stock and accounts today, Tally or an ERP?
 >
 > How do you track the BOM and bought-out parts against each custom hydraulic project?
 >
@@ -150,4 +154,4 @@ If this isn't relevant, just reply "no thanks" and I won't follow up.
 
 ## After the call (2 minutes)
 
-Log in `gtm/logs/calls.csv`: who you spoke to, their role, language used, the answers to questions 3 to 5, the objection, and the next step and date.
+Log in `gtm/logs/calls.csv` with an `outcome` code from the playbook: who you spoke to, their role, language used, what system they use, the pain in their words, the objection, and the next step and date. Then update the account row in `leads/accounts.csv` and run `python3 gtm/tools/build.py`.

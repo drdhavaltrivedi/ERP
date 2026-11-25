@@ -3,80 +3,113 @@
 **Call:** +91 84258 38227 (WhatsApp)
 **Ask for:** Sanjay Choksi (CEO); Ajay Choksi (Executive Chairman); Kalpesh Sura (GM Operations); Piyush Suthar (Manager Finance & Accounts)
 **Language:** Gujarati first (Gujarati section below), then mirror them. If they answer in Hindi, use the Hinglish lines.
+**Status:** Called - gatekeeper · next: Call to reach the ERP owner and get its name (2026-12-02)
 **What we know (from their website):** Solvent dyes, phthalocyanines, flame retardants, CDMO. Factory: 12,14 GIDC Phase 1, Vatva 382445. Corporate: Chitrakoot, Opp C.N. Vidyalaya, Ambawadi, Ahmedabad 380006. Launched US outsourcing/procurement division Jan 2024; Mumbai office; AEO T2 and EcoVadis (compliance data); Two Star Export House
 **Fit:** score 85, tier A. Odoo (multi-company/multi-currency or pharma QC + lots)
-**Goal of the call:** learn two or three facts and book a 30-minute visit at the Vatva plant. Do not sell on the phone.
+**Goal of the call:** leave with one of: a visit date at the Vatva plant, the right person's name and a good time, one real fact about how they run today, or a callback date. Do not sell on the phone.
 
-Source: https://anarchem.com/about-us/. Check the person's current role on LinkedIn or the site before calling.
+Source: https://anarchem.com/about-us/. Check the person's current role on LinkedIn or the site before calling. How to run the conversation: `scripts/00-call-playbook.md`.
 
 ---
 
-## 1. Receptionist (20 seconds)
+## Where we stand
 
-> **Dhaval:** Namaste, main Dhaval bol raha hoon, Brilworks se, Ahmedabad. Ek chhoti si help chahiye thi.
+| Date | Outcome | Spoke to | Notes |
+|---|---|---|---|
+| 2026-11-25 | has_erp | not recorded | Using an ERP for 7-8 years; contact did not know its name. |
+
+**What we learned:** They have used an ERP for 7 to 8 years. The person we spoke to didn't know its name.
+
+**Next touch:** Call on Wed 2 Dec to reach the ERP owner, most likely Piyush Suthar (Manager Finance & Accounts) or Kalpesh Sura (GM Operations). Goal: the ERP's name, who supports it, and what still happens outside it.
+
+**Angle:** Long-running ERP (playbook branch E2): what still lives in Excel, how the 2024 US procurement division fits, vendor support, and compliance data for EcoVadis and AEO.
+
+**Open the next call with this** (it shows you remember them):
+
+> **Dhaval:** Namaste Piyush ji, Dhaval, Brilworks se. Aapke office se pata chala ki aap 7-8 saal se ek ERP use kar rahe ho. Main samajhna chahta tha, woh kaunsa hai aur kaisa chal raha hai? Do minute?
 >
-> Aapke yahan operations aur accounts ka software ya system kaun dekhta hai? Sanjay ji, Ajay ji, ya koi aur?
+> **English:** Hi Piyush, Dhaval from Brilworks. Your office mentioned you've run an ERP for seven or eight years. I'd like to understand which one it is and how it's working for you. Do you have two minutes?
 
-*Receptionists answer "who handles X" easily. Write the name down.*
+**Ask or do next:**
 
-> **If they ask "kis baare mein?":** Business software ke baare mein, stock aur accounts ka. Do minute ki baat hai.
+- Kaunsa ERP hai, aur kisne implement kiya tha?
+- Ab bhi koi report hai jo har mahine Excel mein bahar nikaal ke banti hai?
+- US procurement division ka dollar purchase usi system mein hai?
+- Agla upgrade ya renewal kab hai?
+
+**Not confirmed yet (check on the next touch):**
+
+- We don't know who we spoke to. Piyush Suthar and Kalpesh Sura are named on the company site; their ownership of the ERP is a guess.
+
+---
+
+## 1. Open the call (15 seconds)
+
+**If reception answers** (playbook branch A): get the name, the best time and a direct number.
+
+> **Dhaval:** Namaste, main Dhaval, Brilworks se, Ahmedabad. Ek chhoti si help chahiye thi. Aapke yahan operations aur accounts ka software ya system kaun dekhta hai? Sanjay ji, Ajay ji, ya koi aur?
 >
-> **If they say "mail kar dijiye":** Zaroor. Kis naam se bhejun, aur kya aap unka email bata sakte hain?
-
-## 2. Opening with the decision maker (20 seconds)
-
-> **Dhaval:** Namaste Sanjay ji, main Dhaval, Brilworks se, Ahmedabad. Kya abhi do minute baat kar sakte hain, ya baad mein call karun?
-
-*If they say later: "Kal subah 11 baje theek rahega?" and log it.*
-
-## 3. Who we are (15 seconds, then stop talking)
-
-> **Dhaval:** Hum Brilworks hain, Ahmedabad ki software company. Hum Odoo aur ERPNext ke partner hain, aur manufacturers ke liye stock, production, sales aur accounts ek system mein laate hain. [fill: one line of proof, e.g. "Humne MP mein ek building-materials manufacturer ke liye poora ERP banaya hai."]
+> **If "sir abhi nahi hain":** Koi baat nahi. Woh usually kab milte hain, subah ya shaam? Aur unka extension ya direct number mil sakta hai?
 >
-> Main aapki website dekh raha tha. 2024 mein aapne US procurement division shuru kiya, aur AEO T2 aur EcoVadis Silver hai. Isliye socha seedha aapse baat karun.
+> **If "mail kar dijiye":** Zaroor. Kis naam se bhejun, aur unka email kya hai? Mail ke baad Thursday ko call karun toh baat ho jayegi?
 
-## 4. Easy questions first (two-way, 1 to 2 minutes)
+*Ask the receptionist's name and use it next time.*
 
-Ask one at a time. Wait for the answer. Repeat back one detail before the next question.
+**When you reach Sanjay ji:**
 
-1. **Their role (easy):** "Aap khud operations side dekhte hain ya finance side?"
-2. **Their setup (easy, flattering):** "US division abhi kya sourcing karta hai, aur Vatva plant mein team kitni hai?"
-3. **Current system (easy):** "Abhi billing aur stock ke liye Tally use hota hai ya koi aur software?"
-4. **Opens the pain:** "Dollar mein purchase aur rupee mein production, dono ka hisaab ek system mein hai ya alag-alag?"
-5. **Opens the pain, another angle:** "EcoVadis aur AEO renewal ke liye data, jaise energy, waste aur safety records, abhi kahan se jodte hain?"
+> **Dhaval:** Namaste Sanjay ji, main Dhaval, Brilworks se, Ahmedabad. Seedha bolun toh yeh ek cold call hai. 30 second de sakte hain? Phir aap batana baat karni hai ya nahi.
+>
+> **If yes:** Main aapki website dekh raha tha. 2024 mein aapne US procurement division shuru kiya, aur AEO T2 aur EcoVadis Silver hai. Hum manufacturers ke saath ERP ka kaam karte hain, Odoo aur ERPNext. Toh ek cheez samajhni thi: abhi stock aur accounts ke liye kya use karte hain, Tally ya koi ERP?
 
-*Don't ask about revenue or margins on the first call.*
+*Their answer picks the branch in section 3. Stop talking and listen.*
 
-## 5. Listen for the pain, then reflect it back
+## 2. Questions to have ready (ask one, then follow their answer)
 
-If they mention Excel, WhatsApp, registers, phoning the plant or month-end delays:
+Pick the next question from what they just said, not from the list order.
 
-> **Dhaval:** Toh multi-currency purchase aur compliance data abhi alag files mein hai, aur har renewal par yeh dobara jodna padta hai.
+- **Easy, about their setup:** "US division abhi kya sourcing karta hai, aur Vatva plant mein team kitni hai?"
+- **The pain question:** "Dollar mein purchase aur rupee mein production, dono ka hisaab ek system mein hai ya alag-alag?"
+- **Another angle:** "EcoVadis aur AEO renewal ke liye data, jaise energy, waste aur safety records, abhi kahan se jodte hain?"
+- **Dig deeper:** "US division ka purchase bhi usi system mein jaata hai, ya alag?"
+- **Dig deeper:** "EcoVadis renewal ke liye data jodne mein kitne din lagte hain, aur kaun karta hai?"
+- **Who feels it:** "Yeh sabse zyada kisko pareshan karta hai, accounts ko, plant ko, ya aapko?"
+- **The last time:** "Last time yeh hua tha, toh kya hua? Kitna time laga?"
 
-## 6. One line of value, specific to them (15 seconds)
+*Echo their last few words when they go vague ("Thoda manual?"). Don't ask about revenue or margins on the first call.*
 
-> **Dhaval:** Hum yahi karte hain. Ek ERP mein US purchase aur Vatva production multi-currency mein ek saath, aur EcoVadis-AEO ka data ek jagah. Tally GST ke liye reh sakta hai.
-
-## 7. Ask for the visit (not a demo)
-
-> **Dhaval:** Kya main next week Vatva plant aa ke 30 minute mil sakta hoon? Main dikhaunga ki aapke jaisa setup ek system mein kaisa dikhta hai. Tuesday ya Thursday, kaunsa theek rahega?
-
-*Always offer two options. When they agree:* "Main aapko WhatsApp pe confirm bhej deta hoon. Yeh number sahi hai?"
-
-## 8. If they push back
+## 3. What they say, what you say
 
 | They say | Dhaval says |
 |---|---|
-| "Humare paas Tally hai, sab chal raha hai." | "Tally accounts aur GST ke liye bahut achha hai, woh chalu rahega. Main sirf yeh samajhna chahta tha: Dollar mein purchase aur rupee mein production, dono ka hisaab ek system mein hai ya alag-alag?" |
-| "Abhi zaroorat nahi." | "Theek hai. Ek sawaal: agle saal production ya branches badhe, toh kya yahi system chalega?" Then: "Main 3 mahine baad call karun?" |
-| "Details bhej do." | "Zaroor. Kis cheez pe focus karun, stock aur batch, production costing, ya accounts? Taaki aapke kaam ka ho." Get the email, send within an hour. |
+| "Busy hoon." | "Bilkul. Ek line mein bataun kyon call kiya: 2024 mein aapne US procurement division shuru kiya, aur AEO T2 aur EcoVadis Silver hai. Isliye ek sawaal tha. Kal 11 baje ya shaam 5 ke baad, kya theek rahega?" |
+| "Email bhej do." | "Zaroor. Taaki generic mail na ho: aapke liye zyada important kya hai, multi-currency purchase ya EcoVadis aur AEO ka data? ... Aur mail ke baad Friday ko 2 minute call kar lun?" Confirm the address letter by letter. |
+| "Tally aur Excel pe chal raha hai." | "Tally accounts ke liye best hai, woh chalu rahega. Excel mein sabse badi sheet kaunsi hai? ... Dollar mein purchase aur rupee mein production, dono ka hisaab ek system mein hai ya alag-alag?" |
+| "Humare paas ERP hai." | "Achha, kaunsa? Kab se chal raha hai? Ise kaun own karta hai?" Then: "Woh ERP kisne lagaya tha, aur ab bhi wahi vendor support deta hai? 2024 mein US division aaya toh woh bhi usi mein add hua?" Get a follow-up date (playbook branch E). |
+| "Abhi naya ERP liya hai." | "Congratulations. Kaunsa, aur partner kaun hai? Go-live kab ka target hai? Pehle phase mein kya aa raha hai?" Exit: "Go-live ke 2-3 mahine baad ek baar call karun?" |
+| "Zaroorat nahi hai." | "Fair hai. Ek cheez pooch sakta hoon: kya isliye ki sab already system mein hai, ya abhi priority kuch aur hai?" (playbook branch F) |
+| Wrong person (IT, accounts staff) | "Aap hi sahi insaan ho yeh samajhne ke liye. Abhi kya system hai? ... Iska decision usually kaun leta hai?" Ask for an introduction. |
 | "Kitna kharcha hoga?" | "Phase 1 (stock, purchase, sales, accounts) ₹2 lakh se shuru hota hai. Exact quote aapka setup dekh ke dunga. Isliye milna zaroori hai." |
-| "Pehle bhi ERP try kiya, kaam nahi kiya." | "Kya problem hua tha? Hum phase mein go-live karte hain, ek saath sab nahi badalte." |
-| "Aapke clients kaun hain Ahmedabad mein?" | "Ahmedabad mein hum abhi pehle 2-3 manufacturers ke saath reference terms pe kaam shuru kar rahe hain. MP mein humne ek building-materials manufacturer ka ERP banaya hai." (Never name the client. Don't claim local clients.) |
+| "Pehle bhi ERP try kiya, kaam nahi kiya." | "Kya hua tha? ... Hum phase mein go-live karte hain, ek saath sab nahi badalte." |
+| "Aapke clients kaun hain Ahmedabad mein?" | "MP mein humne ek building-materials manufacturer ka ERP banaya hai. Ahmedabad mein is saal pehle 2-3 manufacturers ke saath reference terms pe shuru kar rahe hain." (Never name the client. Don't claim local clients.) |
+| Clear no, "dobara call mat karna" | "Bilkul, sorry for disturbing. Thank you." Set status to `Do not contact`. |
 
-## 9. Close every call the same way
+## 4. When you hear the pain
 
-> **Dhaval:** Bahut shukriya Sanjay ji, aapka time dene ke liye. Main abhi WhatsApp pe meeting confirm karta hoon.
+Ask one more question about it first. Then reflect it back:
+
+> **Dhaval:** Toh multi-currency purchase aur compliance data abhi alag files mein hai, aur har renewal par yeh dobara jodna padta hai. Sahi samjha?
+
+One line of value, then the visit ask:
+
+> **Dhaval:** Hum yahi karte hain. Ek ERP mein US purchase aur Vatva production multi-currency mein ek saath, aur EcoVadis-AEO ka data ek jagah. Tally GST ke liye reh sakta hai. Kya main next week Vatva plant aa ke 30 minute dikha sakta hoon ki aapke setup mein yeh kaisa dikhega? Tuesday ya Thursday?
+
+*When they agree:* "Main WhatsApp pe confirm bhejta hoon. Yeh number sahi hai?"
+
+## 5. Leave with a next step
+
+Never end with "main contact karta hoon". End with a date, a name or a number, and thank them by name:
+
+> **Dhaval:** Bahut shukriya Sanjay ji, aapka time dene ke liye. Toh main [day] ko [time] call karta hoon.
 
 ## Gujarati lines
 
@@ -86,15 +119,17 @@ If they mention Excel, WhatsApp, registers, phoning the plant or month-end delay
 >
 > અમે Odoo અને ERPNext ના partner છીએ. Manufacturers માટે stock, production, sales અને accounts એક system માં લાવીએ છીએ. હું તમારી website જોઈ રહ્યો હતો. મેં જોયું કે તમે 2024 માં US માં procurement division શરૂ કર્યું અને AEO, EcoVadis જેવા certification છે.
 >
+> અત્યારે stock અને accounts માટે શું વાપરો છો, Tally કે કોઈ ERP?
+>
 > Dollar માં purchase અને rupee માં production, બંનેનો હિસાબ એક system માં છે કે અલગ?
 >
 > આવતા અઠવાડિયે Vatva plant પર 30 મિનિટ મળવા આવી શકું? મંગળવાર કે ગુરુવાર, શું ફાવશે?
 
 ## English lines
 
-> Hi Sanjay, this is Dhaval from Brilworks in Ahmedabad. Is now a bad time for two minutes?
+> Hi Sanjay, this is Dhaval from Brilworks in Ahmedabad. To be upfront, this is a cold call. Can I take 30 seconds, and then you tell me if it's worth continuing?
 >
-> We're Odoo and ERPNext partners. We help manufacturers run stock, production, sales and accounts in one system. I was looking at your website. I saw that you launched a US procurement division in 2024 and hold AEO T2 and EcoVadis Silver.
+> I was looking at your website. I saw that you launched a US procurement division in 2024 and hold AEO T2 and EcoVadis Silver. We're Odoo and ERPNext partners, so I wanted to ask: what do you use for stock and accounts today, Tally or an ERP?
 >
 > Are US dollar purchasing and rupee production accounted in one system, or separately?
 >
@@ -150,4 +185,4 @@ If this isn't relevant, just reply "no thanks" and I won't follow up.
 
 ## After the call (2 minutes)
 
-Log in `gtm/logs/calls.csv`: who you spoke to, their role, language used, the answers to questions 3 to 5, the objection, and the next step and date.
+Log in `gtm/logs/calls.csv` with an `outcome` code from the playbook: who you spoke to, their role, language used, what system they use, the pain in their words, the objection, and the next step and date. Then update the account row in `leads/accounts.csv` and run `python3 gtm/tools/build.py`.
