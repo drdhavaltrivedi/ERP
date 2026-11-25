@@ -86,6 +86,7 @@ Pick the next question from what they just said, not from the list order.
 | "Tally aur Excel pe chal raha hai." | "Tally accounts ke liye best hai, woh chalu rahega. Excel mein sabse badi sheet kaunsi hai? ... Teeno-chaaron companies ka stock aur inter-company billing ek jagah dikhta hai, ya har company ki alag Tally hai?" |
 | "Humare paas ERP hai." | "Achha, kaunsa? Kab se chal raha hai? Ise kaun own karta hai?" Then: "Microsoft mein saari group companies ek saath ja rahi hain, ya pehle sirf Gopani Filters?" Get a follow-up date (playbook branch E). |
 | "Abhi naya ERP liya hai." | "Congratulations. Kaunsa, aur partner kaun hai? Go-live kab ka target hai? Pehle phase mein kya aa raha hai?" Exit: "Go-live ke 2-3 mahine baad ek baar call karun?" |
+| "ERP achha chal raha hai, koi problem nahi." | Don't hunt for pain. "Bahut badhiya. Kya cheez sabse achhi lagti hai usmein? ... Agar ek cheez add kar sakte toh kya hoti? ... AMC ya renewal kab hota hai?" Exit: "Main aapka time aur nahi leta. 6 mahine baad ek baar check karun?" (playbook branch E5) |
 | "Zaroorat nahi hai." | "Fair hai. Ek cheez pooch sakta hoon: kya isliye ki sab already system mein hai, ya abhi priority kuch aur hai?" (playbook branch F) |
 | Wrong person (IT, accounts staff) | "Aap hi sahi insaan ho yeh samajhne ke liye. Abhi kya system hai? ... Iska decision usually kaun leta hai?" Ask for an introduction. |
 | "Kitna kharcha hoga?" | "Phase 1 (stock, purchase, sales, accounts) ₹2 lakh se shuru hota hai. Exact quote aapka setup dekh ke dunga. Isliye milna zaroori hai." |

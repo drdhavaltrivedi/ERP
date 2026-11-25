@@ -150,6 +150,34 @@ Old systems have predictable pressure points: vendor support thinning out, e-inv
 
 If they say "Tally is enough": "Bilkul, Tally chalu reh sakta hai accounts aur GST ke liye. Main sirf samajhna chahta tha, [account pain question]?"
 
+**E5. Happy with their ERP, no pain** (for example, "9 saal se chal raha hai, koi problem nahi")
+
+This is a real outcome, not a failure. Don't hunt for pain they say isn't there; that is when a call turns pushy. Your job now is to **leave a good impression, learn three facts and earn permission for one future call.**
+
+1. **Accept it and be curious about why it works.** People enjoy explaining what works.
+   > "Bahut badhiya, 9 saal smoothly chalna kam hota hai. Kya cheez sabse achhi lagti hai usmein?"
+2. **Ask the wish question.** It surfaces small gaps without calling them problems.
+   > "Agar usmein ek cheez add kar sakte, toh kya hoti?" / "Koi report hai jo abhi bhi Excel mein banti hai?"
+3. **Ask about timing, not pain.** These are the moments ERPs get reviewed.
+   > "Iska AMC ya licence renewal kab hota hai?" / "Agle 1-2 saal mein naya plant, nayi company ya export market plan hai?"
+4. **Ask who owns it** (if you don't know): "Isme koi badlav chahiye toh kisse baat hoti hai?"
+5. **Close warmly, with a light next touch.**
+   > **Hinglish:** "Sunke achha laga ki system itna achha chal raha hai. Main aapka time aur nahi leta. Kya main 6 mahine baad ek baar call kar sakta hoon, bas yeh poochne ke liye ki kuch badla ya nahi? ... Thank you [name] ji."
+   >
+   > **English:** "Good to hear it's working that well, so I won't take more of your time. Would it be all right if I checked in once in about six months, just to see whether anything has changed? Thanks, [name]."
+
+If they say yes, set status `Nurture` with that date. If they say "no need", thank them and set `Not a fit` (not `Do not contact`, unless they asked you not to call).
+
+**What to log:** the ERP name, how long they've used it, who supports it (vendor, in-house or partner), who owns it, the renewal month if they shared it, and any trigger (new plant, new company, export). That turns a "no" into a dated reason to call back.
+
+**Angles by type of system** (questions only; don't claim anything about their system):
+
+| What they have | Good curious question |
+|---|---|
+| Local or lesser-known ERP, many years | "Jo company support deti hai, woh abhi bhi active hai? GST ya e-invoice ke changes kitni jaldi aa jaate hain?" |
+| Built in-house | "Achha, apni team ne banaya! Isse kaun maintain karta hai? Agar woh insaan chhutti pe ho ya chala jaaye toh kya hota hai?" |
+| Oracle, SAP or another large suite | "Kaunsa Oracle, NetSuite ya E-Business Suite? Production aur plant ka kaam bhi usi mein hai, ya sirf accounts aur purchase?" If everything runs on it and they're happy, they are probably not our customer; say thanks and set `Not a fit` or a 12-month `Nurture`. |
+
 ### F. "Not required" / "Zaroorat nahi hai"
 
 Respect it, and ask **one** question to learn why. The answer tells you whether to come back.
@@ -240,7 +268,7 @@ Then update `status`, `next_step` and `next_step_date` in `leads/accounts.csv`. 
 
 Run `python3 gtm/tools/build.py` afterwards. It refreshes the Excel view and rewrites each account script, including a "Where we stand" section built from `calls.csv`.
 
-## 10. What round 1 taught us (14 calls, Nov 2026)
+## 10. What round 1 taught us (17 calls, Nov 2026)
 
 | Result | Count | Accounts |
 |---|---|---|
@@ -248,15 +276,16 @@ Run `python3 gtm/tools/build.py` afterwards. It refreshes the Excel view and rew
 | Number not in service | 2 | Ishan Dyes, Ushanti Colour Chem |
 | Asked for email | 2 | Mediwin, Rohan Dyes |
 | Busy, declined | 1 | Cair Euromatic |
-| Already on an ERP | 4 | Gopani (Microsoft, signed last month), Crystal Quinone (Microsoft, just started), Anar (unnamed ERP, 7-8 years), Vasa (Zoho for accounts, stock, HR) |
+| Already on an ERP | 7 | Gopani (Microsoft, signed last month), Crystal Quinone (Microsoft, just started), Anar (unnamed ERP, 7-8 years), Vasa (Zoho for accounts, stock, HR), Indo-Air (STERP, 9 years, no pain), Techflow (in-house ERP), PressureJet (Oracle for accounting, purchase and more) |
 | Referred to a colleague | 1 | JEE Pumps (Tally and Excel, passing to Niyati) |
 | Not required | 1 | APDM (said by IT) |
 
-Fourteen calls is too few to draw firm conclusions, but three things are worth acting on:
+Seventeen calls is still a small sample, but the pattern is now strong enough to act on:
 
-1. **4 of the 9 calls where someone picked up were already on an ERP**, and 2 of those had bought Microsoft recently. Our Tier A score rewards multi-plant, multi-company and export signals, which are also the companies most likely to have bought already. Worth testing: call some Tier B single-plant accounts and compare.
-2. **5 of 14 never reached a person.** Board lines from websites are stale for some companies. Check numbers on Google Maps and IndiaMART before the next batch, and prefer listed mobiles.
-3. **The only warm lead (JEE Pumps) came from asking what they use and listening.** That is the pattern this playbook is built on.
+1. **7 of the 12 calls where someone picked up were already on an ERP.** Our Tier A score rewards multi-plant, multi-company, export and hiring signals, which are also the companies most likely to have bought already. Next batch: mix in Tier B single-plant accounts and compare the share still on Tally and Excel. If it is clearly higher, re-weight the score.
+2. **Ask "Tally or ERP?" in the first 30 seconds.** It sorts the call into a branch quickly, and an ERP answer is still useful data (name, years, owner, renewal).
+3. **5 of 17 never reached a person.** Board lines from websites are stale for some companies. Check numbers on Google Maps and IndiaMART before the next batch, and prefer listed mobiles.
+4. **The only warm lead (JEE Pumps) was on Tally and Excel.** That is the profile to find more of.
 
 ## Rules
 

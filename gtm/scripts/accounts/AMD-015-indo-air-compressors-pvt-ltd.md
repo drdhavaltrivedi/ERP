@@ -3,12 +3,42 @@
 **Call:** +91 79 2290 1951 ; +91 98244 03616
 **Ask for:** C. M. Panchal (Managing Director)
 **Language:** Gujarati first (Gujarati section below), then mirror them. If they answer in Hindi, use the Hinglish lines.
-**Status:** Researched · next: Call board line, ask for C. M. Panchal
+**Status:** Nurture · next: Nurture: light check-in, ask renewal month and support (2027-05-25)
 **What we know (from their website):** Air compressors and vacuum pumps. Plot No. 550, Main Road GIDC Estate, Kathwada, Ahmedabad 382430. Hiring GM Sales & Marketing plus 5 service roles across West/North/South India (field service + spares across regions); exports to 27 countries
 **Fit:** score 70, tier A. ERPNext first (single site, price-sensitive); Odoo if they want CRM/website
 **Goal of the call:** leave with one of: a visit date at the Kathwada plant, the right person's name and a good time, one real fact about how they run today, or a callback date. Do not sell on the phone.
 
 Source: https://www.indoair.com/careers.php ; /about.php. Check the person's current role on LinkedIn or the site before calling. How to run the conversation: `scripts/00-call-playbook.md`.
+
+---
+
+## Where we stand
+
+| Date | Outcome | Spoke to | Notes |
+|---|---|---|---|
+| 2026-11-25 | has_erp | not recorded | Using STERP for the last 9 years, no pain point. What STERP is not confirmed. |
+
+**What we learned:** They have used STERP for about 9 years and said there is no pain point.
+
+**Next touch:** Nurture. Light check-in around 25 May 2027 (about six months).
+
+**Angle:** Happy long-time user (playbook branch E5). Next time, ask about the AMC or renewal month, who supports STERP today, whether service and AMC for installed compressors run in it, and any trigger such as a new plant or regional expansion.
+
+**Open the next call with this** (it shows you remember them):
+
+> **Dhaval:** Namaste, Dhaval, Brilworks se. November mein baat hui thi, aapne bataya tha STERP 9 saal se achha chal raha hai. Bas ek baar check karne ke liye call kiya, kuch badla hai kya?
+>
+> **English:** Hi, Dhaval from Brilworks. We spoke in November and you mentioned STERP has worked well for nine years. I'm just checking in to see whether anything has changed.
+
+**Ask or do next:**
+
+- STERP ka support kaun deta hai, aur AMC kab renew hota hai?
+- Installed compressors ka AMC aur service history bhi STERP mein hai?
+- Naye regional offices ya service engineers aane ke baad system pe koi load aaya?
+
+**Not confirmed yet (check on the next touch):**
+
+- We don't know what STERP is (vendor, product or local system) or whom we spoke to. Look it up before the next call.
 
 ---
 
@@ -55,6 +85,7 @@ Pick the next question from what they just said, not from the list order.
 | "Tally aur Excel pe chal raha hai." | "Tally accounts ke liye best hai, woh chalu rahega. Excel mein sabse badi sheet kaunsi hai? ... Har installed compressor ka AMC, service history aur spares usage abhi kahan track hota hai?" |
 | "Humare paas ERP hai." | "Achha, kaunsa? Kab se chal raha hai? Ise kaun own karta hai?" Then: "Service aur AMC bhi us ERP mein hai, ya alag software ya Excel?" Get a follow-up date (playbook branch E). |
 | "Abhi naya ERP liya hai." | "Congratulations. Kaunsa, aur partner kaun hai? Go-live kab ka target hai? Pehle phase mein kya aa raha hai?" Exit: "Go-live ke 2-3 mahine baad ek baar call karun?" |
+| "ERP achha chal raha hai, koi problem nahi." | Don't hunt for pain. "Bahut badhiya. Kya cheez sabse achhi lagti hai usmein? ... Agar ek cheez add kar sakte toh kya hoti? ... AMC ya renewal kab hota hai?" Exit: "Main aapka time aur nahi leta. 6 mahine baad ek baar check karun?" (playbook branch E5) |
 | "Zaroorat nahi hai." | "Fair hai. Ek cheez pooch sakta hoon: kya isliye ki sab already system mein hai, ya abhi priority kuch aur hai?" (playbook branch F) |
 | Wrong person (IT, accounts staff) | "Aap hi sahi insaan ho yeh samajhne ke liye. Abhi kya system hai? ... Iska decision usually kaun leta hai?" Ask for an introduction. |
 | "Kitna kharcha hoga?" | "Phase 1 (stock, purchase, sales, accounts) ₹2 lakh se shuru hota hai. Exact quote aapka setup dekh ke dunga. Isliye milna zaroori hai." |

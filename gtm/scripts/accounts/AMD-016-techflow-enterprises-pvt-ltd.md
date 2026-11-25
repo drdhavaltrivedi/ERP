@@ -3,12 +3,42 @@
 **Call:** +91 78747 19999 ; +91 88669 80744
 **Ask for:** D. K. Parikh (Chairman & Founder); Monil Parikh and Chintan Parikh (sons, titles not on site) | LinkedIn: Chintan Parikh (Executive Director); Dhiren Parikh (Chairman)
 **Language:** Gujarati first (Gujarati section below), then mirror them. If they answer in Hindi, use the Hinglish lines.
-**Status:** Researched · next: Call board line, ask for D. K. Parikh
+**Status:** Nurture · next: Nurture: ask who maintains the in-house ERP, project costing angle (2027-02-24)
 **What we know (from their website):** Air pollution control: dust collectors, fans, ESPs. Block No. 803/B/1, Nr. Canal, Kubadthal Village, Off Kunjad-Kathlal Rd, Via Kathwada SP Ring Road Circle, Ahmedabad 382430. Project-based engineering with large orders (Tata group); exports 22% of FY2025-26 sales to 58 markets; tripled paint shop capacity. Second generation in business
 **Fit:** score 70, tier A. ERPNext first (single site, price-sensitive); Odoo if they want CRM/website
 **Goal of the call:** leave with one of: a visit date at the Kathwada plant, the right person's name and a good time, one real fact about how they run today, or a callback date. Do not sell on the phone.
 
 Source: https://techflow.net/ ; /about-us/. Check the person's current role on LinkedIn or the site before calling. How to run the conversation: `scripts/00-call-playbook.md`.
+
+---
+
+## Where we stand
+
+| Date | Outcome | Spoke to | Notes |
+|---|---|---|---|
+| 2026-11-25 | has_erp | not recorded | Using their in-house built ERP system. |
+
+**What we learned:** They use an ERP built in-house.
+
+**Next touch:** Nurture. Check in around 24 Feb 2027.
+
+**Angle:** In-house systems depend on the people who built them (playbook branch E5). Ask who maintains it, how GST and e-invoice changes are handled, and whether project costing for each dust collector or ESP order is in it. Don't criticise it.
+
+**Open the next call with this** (it shows you remember them):
+
+> **Dhaval:** Namaste, Dhaval, Brilworks se. November mein baat hui thi, aapne bataya tha aapka apna in-house ERP hai. Ek cheez poochni thi: usse maintain kaun karta hai, aur project costing bhi usi mein hai?
+>
+> **English:** Hi, Dhaval from Brilworks. When we spoke in November you mentioned your ERP is built in-house. I was curious: who maintains it, and does it cover project costing too?
+
+**Ask or do next:**
+
+- Isse kisne banaya, aur ab kaun maintain karta hai?
+- GST ya e-invoice mein badlav aaye toh update kitni jaldi hota hai?
+- Har order ka actual cost aur milestone billing usmein hai?
+
+**Not confirmed yet (check on the next touch):**
+
+- Who we spoke to and how much the in-house system covers are not recorded.
 
 ---
 
@@ -55,6 +85,7 @@ Pick the next question from what they just said, not from the list order.
 | "Tally aur Excel pe chal raha hai." | "Tally accounts ke liye best hai, woh chalu rahega. Excel mein sabse badi sheet kaunsi hai? ... Har dust collector ya ESP order ka project cost, material aur labour ke saath, abhi kaise nikalte hain?" |
 | "Humare paas ERP hai." | "Achha, kaunsa? Kab se chal raha hai? Ise kaun own karta hai?" Then: "Project costing aur milestone billing bhi usi ERP mein hai?" Get a follow-up date (playbook branch E). |
 | "Abhi naya ERP liya hai." | "Congratulations. Kaunsa, aur partner kaun hai? Go-live kab ka target hai? Pehle phase mein kya aa raha hai?" Exit: "Go-live ke 2-3 mahine baad ek baar call karun?" |
+| "ERP achha chal raha hai, koi problem nahi." | Don't hunt for pain. "Bahut badhiya. Kya cheez sabse achhi lagti hai usmein? ... Agar ek cheez add kar sakte toh kya hoti? ... AMC ya renewal kab hota hai?" Exit: "Main aapka time aur nahi leta. 6 mahine baad ek baar check karun?" (playbook branch E5) |
 | "Zaroorat nahi hai." | "Fair hai. Ek cheez pooch sakta hoon: kya isliye ki sab already system mein hai, ya abhi priority kuch aur hai?" (playbook branch F) |
 | Wrong person (IT, accounts staff) | "Aap hi sahi insaan ho yeh samajhne ke liye. Abhi kya system hai? ... Iska decision usually kaun leta hai?" Ask for an introduction. |
 | "Kitna kharcha hoga?" | "Phase 1 (stock, purchase, sales, accounts) ₹2 lakh se shuru hota hai. Exact quote aapka setup dekh ke dunga. Isliye milna zaroori hai." |

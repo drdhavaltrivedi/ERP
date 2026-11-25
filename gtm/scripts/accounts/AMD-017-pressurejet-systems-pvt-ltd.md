@@ -3,12 +3,41 @@
 **Call:** +91 93750 22359 (sales) ; +91 93760 22353 (procurement)
 **Ask for:** Vishal Shah (Managing Director); Abhi Shah (Director) [LinkedIn]
 **Language:** Gujarati first (Gujarati section below), then mirror them. If they answer in Hindi, use the Hinglish lines.
-**Status:** Researched · next: Call board line, ask for Vishal Shah
+**Status:** Nurture · next: Nurture (low priority): ask which Oracle and whether production runs on it (2027-05-25)
 **What we know (from their website):** High-pressure plunger pumps and systems. Plant: Plot 21-24 Panchratna Industrial Estate, Near Ode Village, Paldi Kankaj, Pirana, Ahmedabad 382427. HO: Krish Cubical B-1201-1212, Off Sindhu Bhavan Rd, Thaltej 380059. Serves 50+ countries, 5000+ customers; separate spares and service lines (spares inventory, field service)
 **Fit:** score 65, tier B. Either: decide on budget at discovery
 **Goal of the call:** leave with one of: a visit date at the Pirana plant, the right person's name and a good time, one real fact about how they run today, or a callback date. Do not sell on the phone.
 
 Source: https://www.pressurejet.com/about-us ; /contact-us. Check the person's current role on LinkedIn or the site before calling. How to run the conversation: `scripts/00-call-playbook.md`.
+
+---
+
+## Where we stand
+
+| Date | Outcome | Spoke to | Notes |
+|---|---|---|---|
+| 2026-11-25 | has_erp | not recorded | Using Oracle for everything: accounting, purchase management etc. Oracle product not confirmed. |
+
+**What we learned:** They use Oracle for everything: accounting, purchase management and more.
+
+**Next touch:** Nurture, low priority. Check in around 25 May 2027. If production also runs on Oracle and they are happy, mark Not a fit.
+
+**Angle:** Large suite (playbook branch E5). Ask which Oracle product, whether production, spares and service run on it, and who their partner is. A company happy on Oracle for everything is unlikely to move to Odoo or ERPNext soon.
+
+**Open the next call with this** (it shows you remember them):
+
+> **Dhaval:** Namaste, Dhaval, Brilworks se. November mein baat hui thi, aapne bataya tha sab Oracle pe chalta hai. Bas yeh samajhna tha, spares aur service desk bhi Oracle mein hai?
+>
+> **English:** Hi, Dhaval from Brilworks. When we spoke in November you mentioned everything runs on Oracle. I wanted to ask whether your spares and service desks are on it too.
+
+**Ask or do next:**
+
+- Kaunsa Oracle hai, NetSuite ya E-Business Suite? Partner kaun hai?
+- Production aur spares-service bhi Oracle mein hai?
+
+**Not confirmed yet (check on the next touch):**
+
+- Which Oracle product they use, and whom we spoke to, are not recorded.
 
 ---
 
@@ -55,6 +84,7 @@ Pick the next question from what they just said, not from the list order.
 | "Tally aur Excel pe chal raha hai." | "Tally accounts ke liye best hai, woh chalu rahega. Excel mein sabse badi sheet kaunsi hai? ... Har pump jo bika hai, uska spares aur service history ek jagah dikhta hai, ya teeno desks ka alag record hai?" |
 | "Humare paas ERP hai." | "Achha, kaunsa? Kab se chal raha hai? Ise kaun own karta hai?" Then: "Sales, spares aur service teeno desk us ERP mein hain?" Get a follow-up date (playbook branch E). |
 | "Abhi naya ERP liya hai." | "Congratulations. Kaunsa, aur partner kaun hai? Go-live kab ka target hai? Pehle phase mein kya aa raha hai?" Exit: "Go-live ke 2-3 mahine baad ek baar call karun?" |
+| "ERP achha chal raha hai, koi problem nahi." | Don't hunt for pain. "Bahut badhiya. Kya cheez sabse achhi lagti hai usmein? ... Agar ek cheez add kar sakte toh kya hoti? ... AMC ya renewal kab hota hai?" Exit: "Main aapka time aur nahi leta. 6 mahine baad ek baar check karun?" (playbook branch E5) |
 | "Zaroorat nahi hai." | "Fair hai. Ek cheez pooch sakta hoon: kya isliye ki sab already system mein hai, ya abhi priority kuch aur hai?" (playbook branch F) |
 | Wrong person (IT, accounts staff) | "Aap hi sahi insaan ho yeh samajhne ke liye. Abhi kya system hai? ... Iska decision usually kaun leta hai?" Ask for an introduction. |
 | "Kitna kharcha hoga?" | "Phase 1 (stock, purchase, sales, accounts) ₹2 lakh se shuru hota hai. Exact quote aapka setup dekh ke dunga. Isliye milna zaroori hai." |
